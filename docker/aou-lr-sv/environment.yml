@@ -1,0 +1,8 @@
+name: aou-lr-sv
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - minimap2
+prefix: /opt/conda/envs/aou-lr-sv
