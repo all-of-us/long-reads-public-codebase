@@ -1,0 +1,6 @@
+google-cloud-storage
+numpy
+pysam
+pytest
+pytest-console-scripts
+tox

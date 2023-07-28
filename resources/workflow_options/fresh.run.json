@@ -1,0 +1,5 @@
+{
+  "write_to_cache": false,
+  "read_from_cache": false,
+  "workflow_failure_mode": "ContinueWhilePossible",
+}
