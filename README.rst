@@ -1,10 +1,10 @@
-AoU LR
+AoU Long Reads Public Codebase
 """"""
 
 |GitHub release| |Generic badge|
 
 .. |GitHub release| image:: https://img.shields.io/github/release/kvg/aou-lr.svg
-   :target: https://github.com/kvg/longbow/aou-lr
+   :target: https://github.com/all-of-us/long-reads-public-codebase
 
 .. |Generic badge| image:: https://img.shields.io/badge/Docker-v0.0.9-blue.svg
    :target: https://console.cloud.google.com/artifacts/docker/broad-dsp-lrma/us-central1/aou-lr
@@ -18,13 +18,13 @@ Quick start
 ::
 
     # Clone repo
-    git clone https://github.com/kvg/aou-lr.git
+    git clone https://github.com/all-of-us/long-reads-public-codebase
 
 
 Getting help
 ------------
 
-If you encounter bugs or have questions/comments/concerns, please file an issue on our `Github page <https://github.com/kvg/aou-lr/issues>`_.
+If you encounter bugs or have questions/comments/concerns, please file an issue on our `Github page <https://github.com/all-of-us/long-reads-public-codebase/issues>`_.
 
 
 Developers' guide
