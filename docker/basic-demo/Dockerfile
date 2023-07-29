@@ -4,7 +4,7 @@ MAINTAINER Kiran V Garimella
 
 # install conda packages
 ENV CONDA_ENV="my-env"
-RUN conda create --name $CONDA_ENV samtools minimap2 && conda clean -a
+RUN conda create --name $CONDA_ENV -c bioconda samtools minimap2 && conda clean -a
 
 # install some basic packages
 RUN apt-get -y update \
