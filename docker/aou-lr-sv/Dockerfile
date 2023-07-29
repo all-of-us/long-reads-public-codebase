@@ -1,4 +1,4 @@
-FROM continuumio/miniconda3
+FROM continuumio/miniconda3:23.5.2-0
 
 MAINTAINER Kiran V Garimella
 

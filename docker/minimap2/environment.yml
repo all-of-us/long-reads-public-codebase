@@ -1,8 +1,0 @@
-name: minimap2
-channels:
-  - bioconda
-  - conda-forge
-  - defaults
-dependencies:
-  - minimap2
-prefix: /opt/conda/envs/minimap2
