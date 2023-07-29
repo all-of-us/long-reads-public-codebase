@@ -3,7 +3,7 @@ AoU Long Reads Public Codebase
 
 |GitHub release| |Generic badge|
 
-.. |GitHub release| image:: https://img.shields.io/github/release/kvg/aou-lr.svg
+.. |GitHub release| image:: https://img.shields.io/github/release/all-of-us/long-reads-public-codebase.svg
    :target: https://github.com/all-of-us/long-reads-public-codebase
 
 .. |Generic badge| image:: https://img.shields.io/badge/Docker-v0.0.12-blue.svg
