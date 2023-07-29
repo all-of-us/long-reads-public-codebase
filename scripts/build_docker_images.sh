@@ -10,11 +10,20 @@ do
     DIR_NAME=$(dirname $DOCKER_FILE)
     DOCKER_NAME=$(basename $DIR_NAME)
 
-    TAG="us-central1-docker.pkg.dev/broad-dsp-lrma/$DOCKER_REPO/$DOCKER_NAME:$LABEL"
+    VERSION=$(grep '^current_version' .bumpversion.cfg | cut -d' ' -f3)
+    TAG_VERSION="us-central1-docker.pkg.dev/broad-dsp-lrma/$DOCKER_REPO/$DOCKER_NAME:$VERSION"
+    TAG_LABEL="us-central1-docker.pkg.dev/broad-dsp-lrma/$DOCKER_REPO/$DOCKER_NAME:$LABEL"
 
-    if docker manifest inspect $TAG > /dev/null; then
-        docker pull $TAG
+    if docker manifest inspect $TAG_VERSION > /dev/null; then
+        # Make sure the most recent version of the Docker image gets used as the cache
+        docker pull $TAG_VERSION
+        docker tag $TAG_VERSION $TAG_LABEL
     fi
 
-    docker build -t $TAG $DIR_NAME && docker push $TAG
+    if docker manifest inspect $TAG_LABEL > /dev/null; then
+        docker pull $TAG_LABEL
+    fi
+
+    docker build -t $TAG_LABEL $DIR_NAME
+    docker push $TAG_LABEL
 done
