@@ -1,7 +1,7 @@
 # AoU LR Playground
 Tools to make working with AoU LR data easier.
 
-Current version: 0.0.11
+Current version: 0.0.12
 
 ## Development
 
