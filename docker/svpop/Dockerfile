@@ -32,4 +32,4 @@ ENV PYTHONPATH=/svpop/:/svpop/dep/:${PYTHONPATH}
 RUN rm RepeatMasker-4.1.5.tar.gz && rm v4.09.1.tar.gz
 
 
-RUN echo "source activate base" > ~/.bashrc
+RUN echo "source activate svpop" > ~/.bashrc
