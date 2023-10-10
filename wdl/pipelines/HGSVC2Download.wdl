@@ -92,7 +92,7 @@ task HGSVC2DownloadImpl {
     output {
     }
     runtime {
-        docker: "us-central1-docker.pkg.dev/broad-dsp-lrma/aou-lr/hgsvc2"
+        docker: "fcunial/hgsvc2"
         cpu: n_cpus
         memory: ram_size_gb + "GB"
         disks: "local-disk " + disk_size_gb + " HDD"
