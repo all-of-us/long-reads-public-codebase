@@ -56,6 +56,6 @@ jobs:
     - name: Build Docker images
       run: |-
         gcloud config set account aou-lr-docker-builder@broad-dsp-lrma.iam.gserviceaccount.com
-        gcloud auth configure-docker -q us-central1-docker.pkg.dev
+        gcloud auth configure-docker -q us.gcr.io
         ./scripts/build_docker_images.sh $(git rev-parse --abbrev-ref HEAD)
 
