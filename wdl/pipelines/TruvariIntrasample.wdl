@@ -120,7 +120,7 @@ task TruvariIntrasampleImpl {
     	File bcftools_merged_idx = "~{work_dir}/~{sample_id}.bcftools_merged.vcf.gz.tbi"
     }
     runtime {
-        docker: "fcunial/truvari_intrasample"
+        docker: "us.gcr.io/broad-dsp-lrma/aou-lr/truvari_intrasample"
         cpu: 1
         memory: "16GB"
         disks: "local-disk " + disk_size_gb + " HDD"
