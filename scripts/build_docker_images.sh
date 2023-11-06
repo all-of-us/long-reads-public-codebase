@@ -2,6 +2,8 @@
 
 set -euxo pipefail
 
+DOCKER_REGISTRY="us.gcr.io" # us-central1-docker.pkg.dev is not supported on RWB
+GOOGLE_PROJECT="broad-dsp-lrma"
 DOCKER_REPO="aou-lr"
 LABEL=$1
 
@@ -11,8 +13,9 @@ do
     DOCKER_NAME=$(basename $DIR_NAME)
 
     VERSION=$(grep '^current_version' .bumpversion.cfg | cut -d' ' -f3)
-    TAG_VERSION="us-central1-docker.pkg.dev/broad-dsp-lrma/$DOCKER_REPO/$DOCKER_NAME:$VERSION"
-    TAG_LABEL="us-central1-docker.pkg.dev/broad-dsp-lrma/$DOCKER_REPO/$DOCKER_NAME:$LABEL"
+
+    TAG_VERSION="$DOCKER_REGISTRY/$GOOGLE_PROJECT/$DOCKER_REPO/$DOCKER_NAME:$VERSION"
+    TAG_LABEL="$DOCKER_REGISTRY/$GOOGLE_PROJECT/$DOCKER_REPO/$DOCKER_NAME:$LABEL"
 
     if docker manifest inspect $TAG_VERSION > /dev/null; then
         # Make sure the most recent version of the Docker image gets used as the cache

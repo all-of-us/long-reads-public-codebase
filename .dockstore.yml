@@ -3,3 +3,6 @@ workflows:
 - name: HelloWorkflow
   subclass: wdl
   primaryDescriptorPath: /wdl/pipelines/HelloWorkflow.wdl
+- name: TruvariIntrasample
+  subclass: wdl
+  primaryDescriptorPath: /wdl/pipelines/TruvariIntrasample.wdl
