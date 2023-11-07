@@ -25,6 +25,8 @@ def resolve(entry, ref):
     """
     if entry.start > ref.get_reference_length(entry.chrom):
         return None
+    if entry.alts[0] in ['<CNV>', '<INS>']:
+        return None
 
     seq = ref.fetch(entry.chrom, entry.start, entry.stop)
     if entry.alts[0] == '<DEL>':

@@ -79,6 +79,7 @@ task TruvariIntrasampleImpl {
         # - Resolves any symbolic alts (e.g. `<DEL>` with the sequence from the
         #   reference)
         #   - symbolic variants are given quality score of 1
+        # - Filters out `<CNV>` from pbsv and `<INS>` from sniffles
         # - Filters out variants greater than 100kbp (I might want to remove
         #   this)
         # - Fills in blank genotypes with `0`
