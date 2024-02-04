@@ -89,11 +89,13 @@ task TruvariIntrasampleImpl {
         mkdir -p preprocessed
         for in_vcf in ~{pav_vcf_gz} ~{pbsv_vcf_gz} ~{sniffles_vcf_gz}
         do
+            prename=preprocessed/pre_inv_$(basename $in_vcf)
+            python ~{docker_dir}/resolve.py ${in_vcf} $ref \
+                | bcftools norm --check-ref s --fasta-ref $ref -N -m-any \
+                | bcftools view -i "SVTYPE != 'BND'" -O z -o ${prename}
+            tabix $prename
             outname=preprocessed/$(basename $in_vcf)
-            python ~{docker_dir}/resolve.py ${in_vcf} ~{reference_fa} \
-                | bcftools norm --check-ref s --fasta-ref ~{reference_fa} -N -m-any \
-                | bcftools view -i "SVTYPE != 'BND'" -O z -o ${outname}
-            tabix $outname
+            python ~{docker_dir}/inversion_guesser.py -i $prename -o $outname
         done
 
         # Step 2 - merge
@@ -108,8 +110,8 @@ task TruvariIntrasampleImpl {
         tabix ~{sample_id}.bcftools_merged.vcf.gz
 
         # Step 3 - collapse
-        truvari collapse -i ~{sample_id}.bcftools_merged.vcf.gz -c removed.vcf.gz -k maxqual --gt --intra \
-            --pctseq 0.90 --pctsize 0.90 --refdist 500 \
+        truvari collapse -i ~{sample_id}.bcftools_merged.vcf.gz -c removed.vcf.gz \
+            --sizemin 0 --sizemax 1000000 -k maxqual --gt --intra --pctseq 0.90 --pctsize 0.90 --refdist 500 \
             | bcftools sort -O z -o ~{sample_id}.truvari_collapsed.vcf.gz
         tabix ~{sample_id}.truvari_collapsed.vcf.gz
     >>>

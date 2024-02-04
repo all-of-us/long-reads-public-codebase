@@ -102,6 +102,7 @@ RUN wget https://github.com/samtools/bcftools/releases/download/${bcftools_versi
     && bcftools --help
 
 # TRUVARI
-RUN pip3 install git+https://github.com/acenglish/truvari.git@v4.2.0-rc \
+RUN pip3 install truvari \
     && truvari --help
 COPY ./resolve.py ${work_dir}
+COPY ./inversion_guesser.py ${work_dir}

@@ -11,7 +11,7 @@ import pysam
 import truvari
 
 REF_CLEAN = True # Set to false if you're working with the right reference
-MAX_SV = 100_000 # Filter things smaller than this
+MAX_SV = 100_000_000 # Filter things smaller than this
 
 RC = str.maketrans("ATCG", "TAGC")
 def do_rc(s):
@@ -41,6 +41,7 @@ def resolve(entry, ref):
         entry.alts = [seq]
         entry.stop = entry.start + 1
     entry.qual = 1
+
     return entry
 
 if __name__ == '__main__':
@@ -61,7 +62,13 @@ if __name__ == '__main__':
                 n_header.contigs[ctg].remove_header()
     
     out = pysam.VariantFile("/dev/stdout", 'w', header=n_header)
+    seen = set()
     for entry in vcf:
+        key = truvari.entry_to_hash(entry)
+        if key in seen:
+            continue
+        seen.add(key)
+
         if REF_CLEAN and entry.chrom not in ref.references:
             continue
 
@@ -74,9 +81,17 @@ if __name__ == '__main__':
 
         if entry is None or set(entry.alts[0]) == {'N'}:
             continue
+        if entry.info['SVTYPE'] != 'INV':
+            entry.info['SVLEN'] = abs(len(entry.ref) - len(entry.alts[0]))
+        else:
+            entry.info['SVLEN'] = len(entry.ref)
         # No more blank genotypes
         n_gt = tuple([_ if _ is not None else 0 for _ in entry.samples[0]['GT']])
+        # Preserve phasing informatino
+        is_phased = entry.samples[0].phased
         entry.samples[0]['GT'] = n_gt
+        entry.samples[0].phased = is_phased
+
         entry.translate(n_header)
         try:
             out.write(entry)
