@@ -1,0 +1,8 @@
+name: augustus
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bioconda::augustus
+prefix: /opt/conda/envs/augustus
