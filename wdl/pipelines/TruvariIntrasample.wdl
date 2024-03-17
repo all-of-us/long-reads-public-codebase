@@ -125,7 +125,7 @@ task TruvariIntrasampleImpl {
     runtime {
         docker: "us.gcr.io/broad-dsp-lrma/aou-lr/truvari_intrasample"
         cpu: 1
-        memory: "16GB"
+        memory: "64GB"
         disks: "local-disk " + disk_size_gb + " HDD"
         preemptible: 0
     }
