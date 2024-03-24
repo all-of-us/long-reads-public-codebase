@@ -28,14 +28,17 @@ def resolve(entry, ref):
     if entry.alts[0] in ['<CNV>', '<INS>']:
         return None
 
-    seq = ref.fetch(entry.chrom, entry.start, entry.stop)
+    seq_prime = ref.fetch(entry.chrom, entry.start, entry.stop)
     
     
     # FC> Replacing non-standard DNA characters with an N
-    for i in range(len(seq)):
-        c = seq[i].upper()
+    seq = ""
+    for i in range(len(seq_prime)):
+        c = seq_prime[i].upper()
         if c!='A' and c!='C' and c!='G' and c!='T':
-             seq[i] = 'N'
+            seq = seq + 'N'
+        else:
+            seq = seq + seq_prime[i]
     
     
     
