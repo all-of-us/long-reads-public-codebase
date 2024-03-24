@@ -29,6 +29,16 @@ def resolve(entry, ref):
         return None
 
     seq = ref.fetch(entry.chrom, entry.start, entry.stop)
+    
+    
+    # FC> Replacing non-standard DNA characters with an N
+    for i in range(len(seq)):
+        c = seq[i].upper()
+        if c!='A' and c!='C' and c!='G' and c!='T':
+             seq[i] = 'N'
+    
+    
+    
     if entry.alts[0] == '<DEL>':
         entry.ref = seq
         entry.alts = [seq[0]]
