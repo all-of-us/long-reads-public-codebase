@@ -95,7 +95,6 @@ These notebooks are designed to run in the Terra cloud platform and focus on dat
 #### Data Import and Processing
 | Notebook | Link | Description |
 |----------|------|-------------|
-| 20231206_Senegal_2020_Data_Import_And_Processing.ipynb | [GitHub](notebooks/terra/20231206_Senegal_2020_Data_Import_And_Processing.ipynb) | Data import and processing for Senegal 2020 dataset |
 | main_init_subset_vds.ipynb | [GitHub](notebooks/terra/main_init_subset_vds.ipynb) | Initialize and subset Variant Dataset (VDS) for analysis |
 
 #### Assembly Analysis
