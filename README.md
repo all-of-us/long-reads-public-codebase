@@ -58,21 +58,26 @@ Please note: this code's organization is in flux.
 
 ---
 
-#### 5. Phasing
+#### 5. Long-Read Phasing and Imputation
 | Workflow | Location | Description |
 |----------|----------|-------------|
-| Shapeit4PhaseWholeGenome | [Dockstore](https://dockstore.org/workflows/github.com/broadinstitute/long-read-pipelines/Shapeit4PhaseWholeGenome:hangsu_phasing_new) | Phases variants genome-wide with Shapeit4. |
-| HybridPhaseWholeGenome | [Dockstore](https://dockstore.org/workflows/github.com/broadinstitute/long-read-pipelines/HybridPhaseWholeGenome:hangsu_phasing_new) | Whole-genome hybrid phasing with long-reads and statistical methods. |
-| HybridPhaseWholeGenomeHiphase | [Dockstore](https://dockstore.org/workflows/github.com/broadinstitute/long-read-pipelines/HybridPhaseWholeGenomeHiphase:hangsu_phasing_new) | Hybrid whole-genome phasing incorporating HIPHASE. |
-| HiphaseJointCall | [Dockstore](https://dockstore.org/workflows/github.com/broadinstitute/long-read-pipelines/HiphaseJointCall:hangsu_phasing_new) | Joint calling with HIPHASE phasing. |
-| HiphaseJointCallTRGT | [Dockstore](https://dockstore.org/workflows/github.com/broadinstitute/long-read-pipelines/HiphaseJointCallTRGT:hangsu_phasing_new) | HIPHASE joint calling restricted to target regions. |
-| Flare | [Dockstore](https://dockstore.org/workflows/github.com/broadinstitute/long-read-pipelines/Flare:hangsu_phasing_new) | Long-read phasing using FLARE. |
-| PhasedMerge | [Dockstore](https://dockstore.org/workflows/github.com/fabio-cunial/sv-merging/PhasedMerge:main) | Merges callsets while preserving phasing. |
-| PhasingStatistics | [Dockstore](https://dockstore.org/workflows/github.com/broadinstitute/long-read-pipelines/PhasingStatistics:hangsu_phasing_new) | Summarizes phasing performance and block sizes. |
+| PhysicalPhasing | [Dockstore](https://dockstore.org/workflows/github.com/broadinstitute/lrma-aou1-panel-creation/PhysicalPhasing:hs_physicalphasing) | Physically phases SNVs/indels and SVs in a single sample with HiPhase. |
+| ChromosomePhasedPanelCreationFromHiPhase | [Dockstore](https://dockstore.org/workflows/github.com/broadinstitute/lrma-aou1-panel-creation/ChromosomePhasedPanelCreationFromHiPhase:sl_v1.1b) | Per chromosome, performs statistical phasing and imputation of SNVs/indels and SVs in a cohort with SHAPEIT4, removes colliding variants, and creates a pangenome bubble-graph reference panel. |
+| ConcatAndEvaluate | [Dockstore](https://dockstore.org/workflows/github.com/broadinstitute/lrma-aou1-panel-creation/ConcatAndEvaluateReduced:sl_v1.1b) | Concatenates per-chromosome pangenome bubble-graph reference panels and runs leave-out and Vcfdist evaluations. |
 
 ---
 
-#### 6. Quality Control & Fingerprinting
+#### 6. Short-Read Genotyping, Phasing, and Imputation
+| Workflow | Location | Description |
+|----------|----------|-------------|
+| HierarchicallyMergeVcfs | [Dockstore](https://dockstore.org/workflows/github.com/broadinstitute/lrma-aou1-panel-creation/KAGEPanelWithPreprocessing:sl_v1.1b) | Per chromosome, creates a kmer index and count model for KAGE genotyping from a reference panel. |
+| KAGECasePerChromosomeFlexscattered | [Dockstore](https://dockstore.org/workflows/github.com/broadinstitute/lrma-aou1-panel-creation/KAGECasePerChromosomeFlexscattered:sl_v1.1b) |  Genotypes a single sample against a reference panel with KAGE. |
+| GLIMPSEBatchedCasePerChromosomeSingleBatch | [Dockstore](https://dockstore.org/workflows/github.com/broadinstitute/lrma-aou1-panel-creation/GLIMPSEBatchedCasePerChromosomeSingleBatch:sl_v1.1b) | Performs phasing and imputation of a batch of genotyped samples against a reference panel with GLIMPSE. |
+| HierarchicallyMergeVcfs | [Dockstore](https://dockstore.org/workflows/github.com/broadinstitute/lrma-aou1-panel-creation/HierarchicallyMergeVcfs:sl_v1.1b) | Hierarchically merges cohort VCFs using either bcftools or ivcfmerge. |
+
+---
+
+#### 7. Quality Control & Fingerprinting
 | Workflow | Location | Description |
 |----------|----------|-------------|
 | CollectSingleSampleSVvcfMetrics | [Dockstore](https://dockstore.org/workflows/github.com/broadinstitute/long-read-pipelines/CollectSingleSampleSVvcfMetrics:sh_gatk_sv_vcfmetrics) | Computes SV metrics per sample. |
@@ -124,18 +129,6 @@ These notebooks are designed to run in the Terra cloud platform and focus on dat
 | Notebook | Link | Description |
 |----------|------|-------------|
 | hangsu_hiphase_results.ipynb | [GitHub](notebooks/terra/hangsu_hiphase_results.ipynb) | Analysis of HIPHASE phasing results |
-| slee-aou1-analysis-for-phasing-experiments.ipynb | [GitHub](notebooks/terra/slee-aou1-analysis-for-phasing-experiments.ipynb) | Analysis for phasing experiments |
-| slee-aou1-kage-panel-preprocessing-for-phasing-experiments.ipynb | [GitHub](notebooks/terra/slee-aou1-kage-panel-preprocessing-for-phasing-experiments.ipynb) | KAGE panel preprocessing for phasing experiments |
-| slee-aou1-kage-panel-preprocessing-for-phasing-experiments-short-plus-sv.ipynb | [GitHub](notebooks/terra/slee-aou1-kage-panel-preprocessing-for-phasing-experiments-short-plus-sv.ipynb) | KAGE panel preprocessing with short reads and SVs |
-| slee-aou1-kage-panel-preprocessing-no-TR-5Mbp.ipynb | [GitHub](notebooks/terra/slee-aou1-kage-panel-preprocessing-no-TR-5Mbp.ipynb) | KAGE panel preprocessing excluding TR regions >5Mbp |
-| slee-aou1-kage-panel-preprocessing-short-only.ipynb | [GitHub](notebooks/terra/slee-aou1-kage-panel-preprocessing-short-only.ipynb) | KAGE panel preprocessing for short reads only |
-| slee-aou1-kage-panel-preprocessing-SV-only-no-TR-5Mbp.ipynb | [GitHub](notebooks/terra/slee-aou1-kage-panel-preprocessing-SV-only-no-TR-5Mbp.ipynb) | KAGE panel preprocessing for SVs only, excluding TR regions >5Mbp |
-| slee-aou1-kage-panel-preprocessing-sv-only.ipynb | [GitHub](notebooks/terra/slee-aou1-kage-panel-preprocessing-sv-only.ipynb) | KAGE panel preprocessing for SVs only |
-| slee-aou1-kage-panel-preprocessing.ipynb | [GitHub](notebooks/terra/slee-aou1-kage-panel-preprocessing.ipynb) | General KAGE panel preprocessing |
-| slee-aou1-preprocess-for-phasing-experiments.ipynb | [GitHub](notebooks/terra/slee-aou1-preprocess-for-phasing-experiments.ipynb) | Preprocessing for phasing experiments |
-| slee-aou1-roh.ipynb | [GitHub](notebooks/terra/slee-aou1-roh.ipynb) | Runs of Homozygosity (ROH) analysis |
-| slee-aou1-panel-summary-statistics.ipynb | [GitHub](notebooks/terra/slee-aou1-panel-summary-statistics.ipynb) | Panel summary statistics |
-| slee-aou1-panel-summary-statistics-SV.ipynb | [GitHub](notebooks/terra/slee-aou1-panel-summary-statistics-SV.ipynb) | Panel summary statistics for structural variants |
 
 #### Quality Control
 | Notebook | Link | Description |
