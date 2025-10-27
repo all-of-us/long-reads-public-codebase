@@ -70,7 +70,7 @@ Please note: this code's organization is in flux.
 #### 6. Short-Read Genotyping, Phasing, and Imputation
 | Workflow | Location | Description |
 |----------|----------|-------------|
-| HierarchicallyMergeVcfs | [Dockstore](https://dockstore.org/workflows/github.com/broadinstitute/lrma-aou1-panel-creation/KAGEPanelWithPreprocessing:sl_v1.1b) | Per chromosome, creates a kmer index and count model for KAGE genotyping from a reference panel. |
+| KAGEPanelWithPreprocessing | [Dockstore](https://dockstore.org/workflows/github.com/broadinstitute/lrma-aou1-panel-creation/KAGEPanelWithPreprocessing:sl_v1.1b) | Per chromosome, creates a kmer index and count model for KAGE genotyping from a reference panel. |
 | KAGECasePerChromosomeFlexscattered | [Dockstore](https://dockstore.org/workflows/github.com/broadinstitute/lrma-aou1-panel-creation/KAGECasePerChromosomeFlexscattered:sl_v1.1b) |  Genotypes a single sample against a reference panel with KAGE. |
 | GLIMPSEBatchedCasePerChromosomeSingleBatch | [Dockstore](https://dockstore.org/workflows/github.com/broadinstitute/lrma-aou1-panel-creation/GLIMPSEBatchedCasePerChromosomeSingleBatch:sl_v1.1b) | Performs phasing and imputation of a batch of genotyped samples against a reference panel with GLIMPSE. |
 | HierarchicallyMergeVcfs | [Dockstore](https://dockstore.org/workflows/github.com/broadinstitute/lrma-aou1-panel-creation/HierarchicallyMergeVcfs:sl_v1.1b) | Hierarchically merges cohort VCFs using either bcftools or ivcfmerge. |
