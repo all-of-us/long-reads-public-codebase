@@ -171,3 +171,4 @@ These notebooks are designed to run in the All of Us Researcher Workbench and fo
 | JW_repeat_expansion_figures.ipynb | [GitHub](notebooks/rw/JW_repeat_expansion_figures.ipynb) | Repeat expansion analysis and figures |
 | kvg_firth_logistic_regression.ipynb | [GitHub](notebooks/rw/kvg_firth_logistic_regression.ipynb) | Firth logistic regression analysis |
 | kvg_pmi_skip_participants.ipynb | [GitHub](notebooks/rw/kvg_pmi_skip_participants.ipynb) | PMI participant filtering analysis |
+| LR_SV_disease_associations.ipynb | [GitHub](notebooks/rw/LR_SV_disease_associations.ipynb) | SV-disease association analysis in 1,027 All of Us Phase 1 samples |
