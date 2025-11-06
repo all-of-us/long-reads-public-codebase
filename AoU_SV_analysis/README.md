@@ -1,6 +1,6 @@
 # Structural variant interpretation in the All of Us Program using long-read sequencing
 ## Project Overview
-This project investigates the functional and clinical relevance of structural variants (SVs) identified from long-read sequencing data in the All of Us (AoU) Research Program. To evaluate their broader impact, these variants were imputed into both the 1000 Genomes Project and short-read AoU cohorts. Integration with RNA-seq and electronic health record (EHR) data enabled downstream analyses, such as eQTL mapping, linkage disequilibrium (LD) with GWAS variants, and phenome-wide association studies (PheWAS), to comprehensively characterize the regulatory and disease-related effects of variants.
+This section investigates the functional and clinical relevance of structural variants (SVs) identified from long-read sequencing data in the All of Us (AoU) Research Program. To evaluate their broader impact, these variants were imputed into both the 1000 Genomes Project and short-read AoU cohorts. Integration with RNA-seq and electronic health record (EHR) data enabled downstream analyses, such as eQTL mapping, linkage disequilibrium (LD) with GWAS variants, and phenome-wide association studies (PheWAS), to comprehensively characterize the regulatory and disease-related effects of variants.
 
 ### Score the effect of SVs ###
 #### CADD-SV annotation
