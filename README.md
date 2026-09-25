@@ -1,5 +1,7 @@
 # All of Us Long Read Project
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22952705.svg)](https://doi.org/10.5281/zenodo.22952705)
+
 Public code and documentation for long-read sequencing in the [All of Us Research Program](https://allofus.nih.gov/) (AoU-LR).
 
 This repository holds the WDL workflows, Jupyter notebooks, and analysis scripts behind population-scale structural variant (SV) discovery, reference-panel construction, short-read genotyping and imputation, and downstream interpretation.
@@ -44,7 +46,7 @@ WDL validity is checked on every push by [.github/workflows/validate-wdls.yml](.
 
 ## Citing
 
-Citation metadata for this code, including authors and ORCIDs, are in [CITATION.cff](CITATION.cff). GitHub shows a "Cite this repository" button generated from it.
+Release v1.0.0 (Phase 1) is archived at Zenodo: [doi:10.5281/zenodo.22952705](https://doi.org/10.5281/zenodo.22952705). Citation metadata, including authors and ORCIDs, are in [CITATION.cff](CITATION.cff), and GitHub shows a "Cite this repository" button generated from it.
 
 ## License
 

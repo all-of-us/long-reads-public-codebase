@@ -9,6 +9,9 @@ abstract: >-
   manuscript "Population-scale long-read sequencing in an All of Us cohort selected
   from self-identified Black or African American participants".
 type: software
+version: v1.0.0
+date-released: "2026-09-25"
+doi: 10.5281/zenodo.22952705
 license: BSD-3-Clause
 repository-code: "https://github.com/all-of-us/long-reads-public-codebase"
 keywords:
