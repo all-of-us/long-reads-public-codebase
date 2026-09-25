@@ -1,0 +1,8 @@
+workflow: LRMergeSVVCFs
+lookup_name: LRMergeSVVCFs
+repo: https://github.com/broadinstitute/long-read-pipelines.git
+branch: kvg_sveval
+primary: wdl/LRMergeSVVCFs.wdl
+located_via: dockstore:LRMergeSVVCFs
+dockstore: https://dockstore.org/workflows/github.com/broadinstitute/long-read-pipelines/LRMergeSVVCFs
+entry: LRMergeSVVCFs.wdl (upstream wdl/LRMergeSVVCFs.wdl; relative imports rewritten to repo/)

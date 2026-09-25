@@ -1,0 +1,8 @@
+workflow: CollectSingleSampleSVvcfMetrics
+lookup_name: CollectSingleSampleSVvcfMetrics
+repo: https://github.com/broadinstitute/long-read-pipelines.git
+branch: sh_gatk_sv_vcfmetrics
+primary: wdl/CollectSingleSampleSVvcfMetrics.wdl
+located_via: filename
+dockstore: https://dockstore.org/workflows/github.com/broadinstitute/long-read-pipelines/CollectSingleSampleSVvcfMetrics
+entry: CollectSingleSampleSVvcfMetrics.wdl (upstream wdl/CollectSingleSampleSVvcfMetrics.wdl; relative imports rewritten to repo/)

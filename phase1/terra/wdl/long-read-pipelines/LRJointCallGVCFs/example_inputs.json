@@ -1,0 +1,7 @@
+{
+  "LRJointCallGVCFs.gcs_out_root_dir": "workspace.local_final_dir_grch38",
+  "LRJointCallGVCFs.gvcfs": "this.ha-sample-grch38s.dvp_gvcf_qual_filtered_vcf",
+  "LRJointCallGVCFs.prefix": "this.ha-sample-grch38_set_id",
+  "LRJointCallGVCFs.ref_map_file": "workspace.ref_map_file_grch38",
+  "LRJointCallGVCFs.tbis": "this.ha-sample-grch38s.dvp_gvcf_qual_filtered_vcf_tbi"
+}

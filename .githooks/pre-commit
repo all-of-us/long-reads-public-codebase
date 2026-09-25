@@ -1,0 +1,13 @@
+#!/bin/sh
+# Strip Jupyter notebook output cells from staged notebooks before commit.
+set -eu
+
+root=$(git rev-parse --show-toplevel)
+cd "$root"
+
+git diff --cached --name-only --diff-filter=ACMR -- '*.ipynb' |
+  while IFS= read -r notebook; do
+    [ -n "$notebook" ] || continue
+    python3 "$root/scripts/strip_notebook_outputs.py" "$notebook"
+    git add -- "$notebook"
+  done

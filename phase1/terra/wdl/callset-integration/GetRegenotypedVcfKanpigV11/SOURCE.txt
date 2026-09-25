@@ -1,0 +1,8 @@
+workflow: GetRegenotypedVcfKanpigV11
+lookup_name: GetRegenotypedVcfKanpigV11
+repo: https://github.com/fabio-cunial/callset_integration.git
+branch: main
+primary: wdl/GetRegenotypedVcfKanpigV11.wdl
+located_via: dockstore:GetRegenotypedVcfKanpigV11
+dockstore: https://dockstore.org/workflows/github.com/fabio-cunial/callset_integration/GetRegenotypedVcfKanpigV11
+entry: GetRegenotypedVcfKanpigV11.wdl (upstream wdl/GetRegenotypedVcfKanpigV11.wdl; relative imports rewritten to repo/)

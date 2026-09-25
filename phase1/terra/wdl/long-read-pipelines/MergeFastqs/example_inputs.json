@@ -1,0 +1,5 @@
+{
+  "MergeFastqs.fastq_gzs": "this.ha-sm-specific-atomics.hifi_fq",
+  "MergeFastqs.gcs_out_root_dir": "workspace.local_final_dir_ref_free",
+  "MergeFastqs.sample": "this.ha-sample_id"
+}

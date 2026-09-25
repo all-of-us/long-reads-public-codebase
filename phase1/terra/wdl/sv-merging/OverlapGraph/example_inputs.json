@@ -1,0 +1,10 @@
+{
+  "OverlapGraph.bucket_dir": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/scratch/cunial-lr-genotyping/RESULTS",
+  "OverlapGraph.genotyper": "null",
+  "OverlapGraph.max_component_size": 10000,
+  "OverlapGraph.max_degree": 1000,
+  "OverlapGraph.merger": "joint",
+  "OverlapGraph.n_samples": 1027,
+  "OverlapGraph.only_chr": "chr22",
+  "OverlapGraph.sv_type": 0
+}

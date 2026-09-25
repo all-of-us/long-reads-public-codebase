@@ -1,0 +1,8 @@
+workflow: LRJointCallGVCFs
+lookup_name: LRJointCallGVCFs
+repo: https://github.com/broadinstitute/long-read-pipelines.git
+branch: main
+primary: wdl/pipelines/TechAgnostic/VariantCalling/LRJointCallGVCFs.wdl
+located_via: dockstore:LRJointCallGVCFs
+dockstore: https://dockstore.org/workflows/github.com/broadinstitute/long-read-pipelines/LRJointCallGVCFs
+entry: LRJointCallGVCFs.wdl (upstream wdl/pipelines/TechAgnostic/VariantCalling/LRJointCallGVCFs.wdl; relative imports rewritten to repo/)

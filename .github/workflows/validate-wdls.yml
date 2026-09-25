@@ -1,0 +1,37 @@
+# Validate every WDL entry point under phase*/terra/wdl/ with womtool.
+# To run locally: scripts/validate_wdls.sh
+
+name: Validate WDLs
+
+on:
+  pull_request:
+  push:
+
+concurrency:
+  group: validate-wdls-${{ github.head_ref || github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+env:
+  CROMWELL_VERSION: "87"
+
+jobs:
+  validate-wdls:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Download womtool
+        run: curl -sSL -o womtool.jar "https://github.com/broadinstitute/cromwell/releases/download/${CROMWELL_VERSION}/womtool-${CROMWELL_VERSION}.jar"
+
+      - name: Validate
+        run: scripts/validate_wdls.sh womtool.jar

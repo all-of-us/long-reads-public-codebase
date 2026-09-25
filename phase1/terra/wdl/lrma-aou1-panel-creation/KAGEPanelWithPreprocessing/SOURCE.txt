@@ -1,0 +1,8 @@
+workflow: KAGEPanelWithPreprocessing
+lookup_name: KAGEPanelWithPreprocessing
+repo: https://github.com/broadinstitute/lrma-aou1-panel-creation.git
+branch: sl_v1.1b
+primary: wdl/methods/kage/KAGEPanelWithPreprocessing.wdl
+located_via: dockstore:KAGEPanelWithPreprocessing
+dockstore: https://dockstore.org/workflows/github.com/broadinstitute/lrma-aou1-panel-creation/KAGEPanelWithPreprocessing
+entry: KAGEPanelWithPreprocessing.wdl (upstream wdl/methods/kage/KAGEPanelWithPreprocessing.wdl; relative imports rewritten to repo/)

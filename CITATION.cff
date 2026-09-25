@@ -1,0 +1,106 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it using the metadata below."
+title: "All of Us Long Read Project: Phase 1 code"
+abstract: >-
+  WDL workflows, Jupyter notebooks, and analysis scripts for Phase 1 of the All of Us
+  Long Read Project (AoU-LR): per-sample processing of PacBio HiFi data, structural
+  variant filtering and cohort merging, reference panel construction, short-read
+  genotyping and imputation, and downstream analyses. This code accompanies the
+  manuscript "Population-scale long-read sequencing in an All of Us cohort selected
+  from self-identified Black or African American participants".
+type: software
+license: BSD-3-Clause
+repository-code: "https://github.com/all-of-us/long-reads-public-codebase"
+keywords:
+  - All of Us
+  - long-read sequencing
+  - structural variants
+  - reference panel
+  - imputation
+  - WDL
+authors:
+  - given-names: Kiran V
+    family-names: Garimella
+    affiliation: "Data Sciences Platform, Broad Institute of MIT and Harvard, Cambridge, MA, USA"
+    orcid: "https://orcid.org/0000-0002-6212-5736"
+  - given-names: Qiuhui
+    family-names: Li
+    affiliation: "Department of Computer Science, Johns Hopkins University, Baltimore, MD, USA"
+    orcid: "https://orcid.org/0009-0004-6740-8040"
+  - given-names: Julie
+    family-names: Wertz
+    affiliation: "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA, USA"
+    orcid: "https://orcid.org/0009-0000-3747-3221"
+  - given-names: Samuel K
+    family-names: Lee
+    affiliation: "Data Sciences Platform, Broad Institute of MIT and Harvard, Cambridge, MA, USA"
+    orcid: "https://orcid.org/0000-0001-6733-0547"
+  - given-names: Fabio
+    family-names: Cunial
+    affiliation: "Data Sciences Platform, Broad Institute of MIT and Harvard, Cambridge, MA, USA"
+    orcid: "https://orcid.org/0000-0003-0282-5738"
+  - given-names: Yongqing
+    family-names: Huang
+    affiliation: "Data Sciences Platform, Broad Institute of MIT and Harvard, Cambridge, MA, USA"
+    orcid: "https://orcid.org/0000-0002-5098-8219"
+  - given-names: Yulia
+    family-names: Mostovoy
+    affiliation: "Center for Genomic Medicine, Massachusetts General Hospital, Boston, MA, USA; Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, MA, USA"
+    orcid: "https://orcid.org/0000-0002-9544-3538"
+  - given-names: Ryan
+    family-names: Lorig-Roach
+    affiliation: "Data Sciences Platform, Broad Institute of MIT and Harvard, Cambridge, MA, USA"
+    orcid: "https://orcid.org/0000-0002-8183-9611"
+  - given-names: Adam
+    family-names: English
+    affiliation: "Human Genome Sequencing Center, Baylor College of Medicine, Houston, TX, USA"
+    orcid: "https://orcid.org/0000-0003-2451-4375"
+  - given-names: Hang
+    family-names: Su
+    affiliation: "Data Sciences Platform, Broad Institute of MIT and Harvard, Cambridge, MA, USA"
+    orcid: "https://orcid.org/0000-0003-1446-4810"
+  - given-names: Matt C
+    family-names: Danzi
+    affiliation: "Department of Human Genetics and John P. Hussman Institute for Human Genomics, University of Miami Miller School of Medicine, Miami, FL, USA"
+    orcid: "https://orcid.org/0000-0003-1568-5965"
+  - given-names: William T
+    family-names: Harvey
+    affiliation: "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA, USA"
+    orcid: "https://orcid.org/0000-0003-0646-7528"
+  - given-names: Karynne
+    family-names: Patterson
+    affiliation: "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA, USA"
+    orcid: "https://orcid.org/0000-0002-0853-1231"
+  - given-names: Allison N
+    family-names: Rozanski
+    affiliation: "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA, USA"
+    orcid: "https://orcid.org/0000-0002-5034-1773"
+  - given-names: Beri
+    family-names: Shifaw
+    affiliation: "Data Sciences Platform, Broad Institute of MIT and Harvard, Cambridge, MA, USA"
+  - given-names: Isaac
+    family-names: Wong
+    affiliation: "Department of Genome Sciences, University of Washington School of Medicine, Seattle, WA, USA"
+    orcid: "https://orcid.org/0000-0003-4877-5748"
+  - given-names: Isaac R. L.
+    family-names: Xu
+    affiliation: "Department of Human Genetics and John P. Hussman Institute for Human Genomics, University of Miami Miller School of Medicine, Miami, FL, USA"
+  - given-names: Shadi
+    family-names: Zaheri
+    affiliation: "Data Sciences Platform, Broad Institute of MIT and Harvard, Cambridge, MA, USA"
+  - given-names: Xinchang
+    family-names: Zheng
+    affiliation: "Human Genome Sequencing Center, Baylor College of Medicine, Houston, TX, USA"
+    orcid: "https://orcid.org/0000-0001-5739-861X"
+  - given-names: Michal
+    family-names: Izydorczyk
+    affiliation: "Human Genome Sequencing Center, Baylor College of Medicine, Houston, TX, USA"
+    orcid: "https://orcid.org/0000-0003-3461-1224"
+  - given-names: Evie
+    family-names: Wan
+    affiliation: "Data Sciences Platform, Broad Institute of MIT and Harvard, Cambridge, MA, USA"
+  - given-names: Lucas
+    name-particle: van
+    family-names: Dijk
+    affiliation: "Data Sciences Platform, Broad Institute of MIT and Harvard, Cambridge, MA, USA"
+    orcid: "https://orcid.org/0000-0002-7565-5859"

@@ -1,0 +1,9 @@
+{
+  "LongReadsContaminationEstimation.bai": "this.bai",
+  "LongReadsContaminationEstimation.bam": "this.bam",
+  "LongReadsContaminationEstimation.disable_baq": true,
+  "LongReadsContaminationEstimation.gt_sites_bed": "workspace.verifybamid_grch38_1kg_10k_sites_bed",
+  "LongReadsContaminationEstimation.is_100k_sites": false,
+  "LongReadsContaminationEstimation.is_hgdp_sites": false,
+  "LongReadsContaminationEstimation.ref_map_file": "workspace.ref_map_file_grch38"
+}

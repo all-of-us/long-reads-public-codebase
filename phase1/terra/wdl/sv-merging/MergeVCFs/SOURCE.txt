@@ -1,0 +1,8 @@
+workflow: MergeVCFs
+lookup_name: MergeVCFs
+repo: https://github.com/fabio-cunial/sv-merging.git
+branch: main
+primary: wdl/MergeVCFs.wdl
+located_via: dockstore:MergeVCFs
+dockstore: https://dockstore.org/workflows/github.com/fabio-cunial/sv-merging/MergeVCFs
+entry: MergeVCFs.wdl (upstream wdl/MergeVCFs.wdl; relative imports rewritten to repo/)

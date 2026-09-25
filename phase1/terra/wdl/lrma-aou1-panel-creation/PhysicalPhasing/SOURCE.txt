@@ -1,0 +1,8 @@
+workflow: PhysicalPhasing
+lookup_name: PhysicalPhasing
+repo: https://github.com/broadinstitute/lrma-aou1-panel-creation.git
+branch: hs_physicalphasing
+primary: wdl/methods/phasing/PhysicalPhasing.wdl
+located_via: filename
+dockstore: https://dockstore.org/workflows/github.com/broadinstitute/lrma-aou1-panel-creation/PhysicalPhasing
+entry: PhysicalPhasing.wdl (upstream wdl/methods/phasing/PhysicalPhasing.wdl; relative imports rewritten to repo/)

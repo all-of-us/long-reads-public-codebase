@@ -1,0 +1,12 @@
+{
+  "GetRegenotypedVcfKanpigMergedV11.alignments_bai": "this.aligned_bai",
+  "GetRegenotypedVcfKanpigMergedV11.alignments_bam": "this.aligned_bam",
+  "GetRegenotypedVcfKanpigMergedV11.intersample_tbi": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/scratch/cunial_intersample_vcf/v11/grch38/cal_sens_09/concat_for_regenotyping.vcf.gz.tbi",
+  "GetRegenotypedVcfKanpigMergedV11.intersample_vcf_gz": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/scratch/cunial_intersample_vcf/v11/grch38/cal_sens_09/concat_for_regenotyping.vcf.gz",
+  "GetRegenotypedVcfKanpigMergedV11.ploidy_bed_female": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/scratch/cunial_intersample_vcf/grch38_female.bed",
+  "GetRegenotypedVcfKanpigMergedV11.ploidy_bed_male": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/scratch/cunial_intersample_vcf/grch38_male.bed",
+  "GetRegenotypedVcfKanpigMergedV11.reference_fa": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/references/GRCh38_noalt/GCA_000001405.15_GRCh38_no_alt_analysis_set.fa",
+  "GetRegenotypedVcfKanpigMergedV11.reference_fai": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/references/GRCh38_noalt/GCA_000001405.15_GRCh38_no_alt_analysis_set.fa.fai",
+  "GetRegenotypedVcfKanpigMergedV11.sample_id": "this.Integratedcall-GRCh38_id",
+  "GetRegenotypedVcfKanpigMergedV11.sex": "this.sex"
+}

@@ -1,0 +1,7 @@
+{
+  "BuildTempLocalFpStore.fingerprint_store": "workspace.fingerprint_store",
+  "BuildTempLocalFpStore.local_path": "workspace.local_fp_store",
+  "BuildTempLocalFpStore.name_for_all_fp_sites_bed": "2304_minus_826_minus_972.all_sites.bed",
+  "BuildTempLocalFpStore.name_for_samples_without_fp": "2304_minus_826_minus_972.no_fp_vcf_samples.txt",
+  "BuildTempLocalFpStore.sample_ids_pool": "workspace.local_fp_store_remaining_506_samples"
+}

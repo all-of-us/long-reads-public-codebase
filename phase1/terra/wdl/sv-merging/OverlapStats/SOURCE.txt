@@ -1,0 +1,8 @@
+workflow: OverlapStats
+lookup_name: OverlapStats
+repo: https://github.com/fabio-cunial/sv-merging.git
+branch: main
+primary: wdl/OverlapStats.wdl
+located_via: dockstore:OverlapStats
+dockstore: https://dockstore.org/workflows/github.com/fabio-cunial/sv-merging/OverlapStats
+entry: OverlapStats.wdl (upstream wdl/OverlapStats.wdl; relative imports rewritten to repo/)

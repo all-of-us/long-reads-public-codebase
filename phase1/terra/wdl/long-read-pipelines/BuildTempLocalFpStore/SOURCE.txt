@@ -1,0 +1,8 @@
+workflow: BuildTempLocalFpStore
+lookup_name: BuildTempLocalFpStore
+repo: https://github.com/broadinstitute/long-read-pipelines.git
+branch: sh_exhaust_au
+primary: wdl/BuildTempLocalFpStore.wdl
+located_via: filename
+dockstore: https://dockstore.org/workflows/github.com/broadinstitute/long-read-pipelines/BuildTempLocalFpStore
+entry: BuildTempLocalFpStore.wdl (upstream wdl/BuildTempLocalFpStore.wdl; relative imports rewritten to repo/)

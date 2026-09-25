@@ -1,0 +1,12 @@
+{
+  "HiFiBamToFastQ.barcode_names": "this.barcode_names",
+  "HiFiBamToFastQ.biosample_ids": "this.biobank_ids",
+  "HiFiBamToFastQ.demuxed_barcode_2_folder": "this.selected_barcode_2_folder",
+  "HiFiBamToFastQ.downstream_sample_ids": "this.research_ids",
+  "HiFiBamToFastQ.fingerprint_store": "workspace.fingerprint_store",
+  "HiFiBamToFastQ.gcs_out_root_dir_ref_free": "workspace.local_final_dir_ref_free",
+  "HiFiBamToFastQ.movie_name": "this.movie",
+  "HiFiBamToFastQ.sample_ids": "this.sample_ids",
+  "HiFiBamToFastQ.sample_ids_at_store": "this.biobank_ids",
+  "HiFiBamToFastQ.smrtcell_id": "this.ha-smrtcell_id"
+}

@@ -1,0 +1,8 @@
+workflow: LongReadsContaminationEstimation
+lookup_name: LongReadsContaminationEstimation
+repo: https://github.com/broadinstitute/long-read-pipelines.git
+branch: sh_more_atomic_qc
+primary: wdl/pipelines/TechAgnostic/Utility/LongReadsContaminationEstimation.wdl
+located_via: dockstore:LongReadsContaminationEstimation
+dockstore: https://dockstore.org/workflows/github.com/broadinstitute/long-read-pipelines/LongReadsContaminationEstimation
+entry: LongReadsContaminationEstimation.wdl (upstream wdl/pipelines/TechAgnostic/Utility/LongReadsContaminationEstimation.wdl; relative imports rewritten to repo/)

@@ -1,0 +1,8 @@
+workflow: SummarizeSmallVariants
+lookup_name: SummarizeSmallVariants
+repo: https://github.com/broadinstitute/long-read-pipelines.git
+branch: kvg_fix_t2t_joint_calls
+primary: wdl/pipelines/TechAgnostic/VariantCalling/SummarizeSmallVariants.wdl
+located_via: dockstore:SummarizeSmallVariants
+dockstore: https://dockstore.org/workflows/github.com/broadinstitute/long-read-pipelines/SummarizeSmallVariants
+entry: SummarizeSmallVariants.wdl (upstream wdl/pipelines/TechAgnostic/VariantCalling/SummarizeSmallVariants.wdl; relative imports rewritten to repo/)

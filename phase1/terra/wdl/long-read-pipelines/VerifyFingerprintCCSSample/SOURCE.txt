@@ -1,0 +1,8 @@
+workflow: VerifyFingerprintCCSSample
+lookup_name: VerifyFingerprint
+repo: https://github.com/broadinstitute/long-read-pipelines.git
+branch: sh_sample_fp
+primary: wdl/pipelines/TechAgnostic/Utility/VerifyFingerprint.wdl
+located_via: dockstore:VerifyFingerprint
+dockstore: https://dockstore.org/workflows/github.com/broadinstitute/long-read-pipelines/VerifyFingerprintCCSSample
+entry: VerifyFingerprintCCSSample.wdl (upstream wdl/pipelines/TechAgnostic/Utility/VerifyFingerprint.wdl; relative imports rewritten to repo/)

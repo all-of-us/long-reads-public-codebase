@@ -1,0 +1,8 @@
+workflow: MergeRegenotypedIntersampleVcf
+lookup_name: MergeRegenotypedIntersampleVcf
+repo: https://github.com/fabio-cunial/callset_integration.git
+branch: main
+primary: wdl/MergeRegenotypedIntersampleVcf.wdl
+located_via: dockstore:MergeRegenotypedIntersampleVcf
+dockstore: https://dockstore.org/workflows/github.com/fabio-cunial/callset_integration/MergeRegenotypedIntersampleVcf
+entry: MergeRegenotypedIntersampleVcf.wdl (upstream wdl/MergeRegenotypedIntersampleVcf.wdl; relative imports rewritten to repo/)

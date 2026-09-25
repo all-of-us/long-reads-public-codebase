@@ -1,0 +1,8 @@
+workflow: PBAssembleWithHifiasm
+lookup_name: PBAssembleWithHifiasm
+repo: https://github.com/broadinstitute/long-read-pipelines.git
+branch: sh_update_hifiasm
+primary: wdl/pipelines/PacBio/Assembly/PBAssembleWithHifiasm.wdl
+located_via: dockstore:PBAssembleWithHifiasm
+dockstore: https://dockstore.org/workflows/github.com/broadinstitute/long-read-pipelines/PBAssembleWithHifiasm
+entry: PBAssembleWithHifiasm.wdl (upstream wdl/pipelines/PacBio/Assembly/PBAssembleWithHifiasm.wdl; relative imports rewritten to repo/)

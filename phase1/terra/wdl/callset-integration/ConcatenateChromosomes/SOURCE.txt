@@ -1,0 +1,8 @@
+workflow: ConcatenateChromosomes
+lookup_name: ConcatenateChromosomes
+repo: https://github.com/fabio-cunial/callset_integration.git
+branch: main
+primary: wdl/ConcatenateChromosomes.wdl
+located_via: dockstore:ConcatenateChromosomes
+dockstore: https://dockstore.org/workflows/github.com/fabio-cunial/callset_integration/ConcatenateChromosomes
+entry: ConcatenateChromosomes.wdl (upstream wdl/ConcatenateChromosomes.wdl; relative imports rewritten to repo/)

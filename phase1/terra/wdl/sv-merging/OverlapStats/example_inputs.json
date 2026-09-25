@@ -1,0 +1,9 @@
+{
+  "OverlapStats.bucket_dir": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/scratch/cunial-lr-genotyping/RESULTS",
+  "OverlapStats.genotyper": "null",
+  "OverlapStats.max_overlap": 100,
+  "OverlapStats.merger": "joint",
+  "OverlapStats.n_samples": -1,
+  "OverlapStats.repeat_masker_file": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/scratch/cunial-sv-merging/hg38.sorted.fa.out.cleaned.orderedByChromosome",
+  "OverlapStats.trf_file": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/scratch/cunial-sv-merging/grch38_noalt-human_GRCh38_no_alt_analysis_set.trf.bed.orderedByChromosome"
+}

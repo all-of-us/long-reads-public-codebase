@@ -1,0 +1,9 @@
+{
+  "MergeSVsSNPs.ram_size_gb": 256,
+  "MergeSVsSNPs.reference_fa": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/references/GRCh38_noalt/GCA_000001405.15_GRCh38_no_alt_analysis_set.fa",
+  "MergeSVsSNPs.reference_fai": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/references/GRCh38_noalt/GCA_000001405.15_GRCh38_no_alt_analysis_set.fa.fai",
+  "MergeSVsSNPs.snps_tbi": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/outputs/HPRC_8X/Hg38/JointCallGVCFs/Jointcall_dvcf/Jointcall_dvcf.g.vcf.bgz.tbi",
+  "MergeSVsSNPs.snps_vcf_gz": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/outputs/HPRC_8X/Hg38/JointCallGVCFs/Jointcall_dvcf/Jointcall_dvcf.g.vcf.bgz",
+  "MergeSVsSNPs.svs_tbi": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/scratch/cunial-bcftools-merge/grch38_svs.vcf.gz.tbi",
+  "MergeSVsSNPs.svs_vcf_gz": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/scratch/cunial-bcftools-merge/grch38_svs.vcf.gz"
+}

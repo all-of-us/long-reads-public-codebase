@@ -1,0 +1,10 @@
+*.swp
+scratch/
+.idea/
+*.zip
+# Raw Terra config exports: review, then run organize; never commit
+terra_config_export*/
+terra_config_export*.tar.gz
+# Python bytecode
+__pycache__/
+*.pyc

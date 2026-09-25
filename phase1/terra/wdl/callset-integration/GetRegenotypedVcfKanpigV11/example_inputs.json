@@ -1,0 +1,11 @@
+{
+  "GetRegenotypedVcfKanpigV11.alignments_bai": "this.aligned_bai",
+  "GetRegenotypedVcfKanpigV11.alignments_bam": "this.aligned_bam",
+  "GetRegenotypedVcfKanpigV11.ploidy_bed_female": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/scratch/cunial_intersample_vcf/grch38_female.bed",
+  "GetRegenotypedVcfKanpigV11.ploidy_bed_male": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/scratch/cunial_intersample_vcf/grch38_male.bed",
+  "GetRegenotypedVcfKanpigV11.reference_fa": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/references/GRCh38_noalt/GCA_000001405.15_GRCh38_no_alt_analysis_set.fa",
+  "GetRegenotypedVcfKanpigV11.reference_fai": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/references/GRCh38_noalt/GCA_000001405.15_GRCh38_no_alt_analysis_set.fa.fai",
+  "GetRegenotypedVcfKanpigV11.sex": "this.sex",
+  "GetRegenotypedVcfKanpigV11.truvari_collapsed_tbi": "this.truvari_collapsed_idx",
+  "GetRegenotypedVcfKanpigV11.truvari_collapsed_vcf_gz": "this.truvari_collapsed"
+}

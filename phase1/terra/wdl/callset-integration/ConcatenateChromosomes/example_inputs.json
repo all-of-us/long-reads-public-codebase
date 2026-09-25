@@ -1,0 +1,4 @@
+{
+  "ConcatenateChromosomes.samples_file": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/scratch/cunial_intersample_vcf/AoU_Phase1_plus_HPRC_samples.txt",
+  "ConcatenateChromosomes.source_dir": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/scratch/cunial_intersample_vcf/v11/grch38/cal_sens_07"
+}

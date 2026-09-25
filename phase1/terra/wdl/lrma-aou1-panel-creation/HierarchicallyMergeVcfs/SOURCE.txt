@@ -1,0 +1,8 @@
+workflow: HierarchicallyMergeVcfs
+lookup_name: HierarchicallyMergeVcfs
+repo: https://github.com/broadinstitute/lrma-aou1-panel-creation.git
+branch: sl_v1.1b
+primary: wdl/methods/phasing/HierarchicallyMergeVcfs.wdl
+located_via: dockstore:HierarchicallyMergeVcfs
+dockstore: https://dockstore.org/workflows/github.com/broadinstitute/lrma-aou1-panel-creation/HierarchicallyMergeVcfs
+entry: HierarchicallyMergeVcfs.wdl (upstream wdl/methods/phasing/HierarchicallyMergeVcfs.wdl; relative imports rewritten to repo/)

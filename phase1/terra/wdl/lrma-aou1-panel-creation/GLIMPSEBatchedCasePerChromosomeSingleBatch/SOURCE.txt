@@ -1,0 +1,8 @@
+workflow: GLIMPSEBatchedCasePerChromosomeSingleBatch
+lookup_name: GLIMPSEBatchedCasePerChromosomeSingleBatch
+repo: https://github.com/broadinstitute/lrma-aou1-panel-creation.git
+branch: sl_v1.1b
+primary: wdl/methods/kage/GLIMPSEBatchedCasePerChromosomeSingleBatch.wdl
+located_via: dockstore:GLIMPSEBatchedCasePerChromosomeSingleBatch
+dockstore: https://dockstore.org/workflows/github.com/broadinstitute/lrma-aou1-panel-creation/GLIMPSEBatchedCasePerChromosomeSingleBatch
+entry: GLIMPSEBatchedCasePerChromosomeSingleBatch.wdl (upstream wdl/methods/kage/GLIMPSEBatchedCasePerChromosomeSingleBatch.wdl; relative imports rewritten to repo/)

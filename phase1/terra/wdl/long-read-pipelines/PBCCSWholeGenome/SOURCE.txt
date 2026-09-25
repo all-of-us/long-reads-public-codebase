@@ -1,0 +1,8 @@
+workflow: PBCCSWholeGenome
+lookup_name: PBCCSWholeGenome
+repo: https://github.com/broadinstitute/long-read-pipelines.git
+branch: main
+primary: wdl/pipelines/PacBio/VariantCalling/PBCCSWholeGenome.wdl
+located_via: dockstore:PBCCSWholeGenome
+dockstore: https://dockstore.org/workflows/github.com/broadinstitute/long-read-pipelines/PBCCSWholeGenome
+entry: PBCCSWholeGenome.wdl (upstream wdl/pipelines/PacBio/VariantCalling/PBCCSWholeGenome.wdl; relative imports rewritten to repo/)

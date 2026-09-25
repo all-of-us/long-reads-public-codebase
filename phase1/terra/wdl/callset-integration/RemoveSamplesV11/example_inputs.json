@@ -1,0 +1,4 @@
+{
+  "RemoveSamplesV11.intersample_tbi": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/scratch/cunial_intersample_vcf/v11/grch38/cal_sens_07/concat.vcf.gz.tbi",
+  "RemoveSamplesV11.intersample_vcf_gz": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/scratch/cunial_intersample_vcf/v11/grch38/cal_sens_07/concat.vcf.gz"
+}

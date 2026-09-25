@@ -1,0 +1,8 @@
+workflow: OverlapGraph
+lookup_name: OverlapGraph
+repo: https://github.com/fabio-cunial/sv-merging.git
+branch: main
+primary: wdl/OverlapGraph.wdl
+located_via: dockstore:OverlapGraph
+dockstore: https://dockstore.org/workflows/github.com/fabio-cunial/sv-merging/OverlapGraph
+entry: OverlapGraph.wdl (upstream wdl/OverlapGraph.wdl; relative imports rewritten to repo/)

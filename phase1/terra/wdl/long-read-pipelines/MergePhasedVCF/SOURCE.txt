@@ -1,0 +1,8 @@
+workflow: MergePhasedVCF
+lookup_name: MergePhasedVCF
+repo: https://github.com/broadinstitute/long-read-pipelines.git
+branch: hangsu_phasing
+primary: wdl/pipelines/PacBio/Utility/MergePhasedVCF.wdl
+located_via: dockstore:MergePhasedVCF
+dockstore: https://dockstore.org/workflows/github.com/broadinstitute/long-read-pipelines/MergePhasedVCF
+entry: MergePhasedVCF.wdl (upstream wdl/pipelines/PacBio/Utility/MergePhasedVCF.wdl; relative imports rewritten to repo/)

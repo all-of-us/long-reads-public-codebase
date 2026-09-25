@@ -1,0 +1,29 @@
+{
+  "MainVcfQc.prefix": "sniffles2",
+  "MainVcfQc.primary_contigs_fai": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/references/GRCh38_noalt/GCA_000001405.15_GRCh38_no_alt_analysis_set.fa.fai",
+  "MainVcfQc.samples_per_shard": 100,
+  "MainVcfQc.site_level_comparison_datasets": [
+    [
+      "gnomAD_v2_Collins",
+      "gs://gatk-sv-resources-public/hg38/v0/sv-resources/resources/v1/gnomAD_v2_Collins"
+    ],
+    [
+      "HGSV_ByrskaBishop",
+      "gs://gatk-sv-resources-public/hg38/v0/sv-resources/resources/v1/HGSV_ByrskaBishop_GATKSV"
+    ],
+    [
+      "1000G_Sudmant",
+      "gs://gatk-sv-resources-public/hg38/v0/sv-resources/resources/v1/1000G_Sudmant"
+    ],
+    [
+      "HGSVC_Chaisson",
+      "gs://<private-bucket-6>/resources/hg38_benchmarking/HGSV_Chaisson"
+    ]
+  ],
+  "MainVcfQc.sv_base_mini_docker": "us.gcr.io/broad-dsde-methods/gatk-sv/sv-base-mini:2022-06-10-v0.23-beta-9c6fbf56",
+  "MainVcfQc.sv_per_shard": 5000,
+  "MainVcfQc.sv_pipeline_docker": "us.gcr.io/broad-dsde-methods/gatk-sv/sv-pipeline:2023-01-19-v0.26.8-beta-5d1d5e0c",
+  "MainVcfQc.sv_pipeline_qc_docker": "us.gcr.io/broad-dsde-methods/gatk-sv/sv-pipeline:2023-01-19-v0.26.8-beta-5d1d5e0c",
+  "MainVcfQc.vcf_format_has_cn": false,
+  "MainVcfQc.vcfs": "this.sniffles2_std_vcf"
+}

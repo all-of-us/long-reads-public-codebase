@@ -1,0 +1,9 @@
+workflow: MapAssemblyContigs
+lookup_name: MapAssemblyContigs
+repo: https://github.com/broadinstitute/long-read-pipelines.git
+branch: sh_hificnv
+primary: wdl/MapAssemblyContigs.wdl
+located_via: filename
+dockstore: https://dockstore.org/workflows/github.com/broadinstitute/long-read-pipelines/MapAssemblyContigs
+entry: MapAssemblyContigs.wdl (upstream wdl/MapAssemblyContigs.wdl; relative imports rewritten to repo/)
+local_patch: wdl/tasks/{AlignReads,Structs}.wdl added from long-read-pipelines commit ad47b56e546de2ff907d4b62161b5684e11946ab (last commit with the flat wdl/tasks/ layout this workflow imports). Not present on branch sh_hificnv.

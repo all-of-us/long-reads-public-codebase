@@ -1,0 +1,8 @@
+workflow: TruvariIntersample
+lookup_name: TruvariIntersample
+repo: https://github.com/fabio-cunial/callset_integration.git
+branch: main
+primary: wdl/TruvariIntersample.wdl
+located_via: dockstore:TruvariIntersample
+dockstore: https://dockstore.org/workflows/github.com/fabio-cunial/callset_integration/TruvariIntersample
+entry: TruvariIntersample.wdl (upstream wdl/TruvariIntersample.wdl; relative imports rewritten to repo/)

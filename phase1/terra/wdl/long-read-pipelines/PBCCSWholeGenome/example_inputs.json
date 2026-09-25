@@ -1,0 +1,16 @@
+{
+  "PBCCSWholeGenome.aligned_bais": "this.ha-sm-specific-atomic-grch38s.bai",
+  "PBCCSWholeGenome.aligned_bams": "this.ha-sm-specific-atomic-grch38s.bam",
+  "PBCCSWholeGenome.call_small_variants": false,
+  "PBCCSWholeGenome.call_small_vars_on_mitochondria": false,
+  "PBCCSWholeGenome.call_svs": false,
+  "PBCCSWholeGenome.dvp_memory": 256,
+  "PBCCSWholeGenome.dvp_threads": 96,
+  "PBCCSWholeGenome.fast_less_sensitive_sv": true,
+  "PBCCSWholeGenome.gcs_out_root_dir": "workspace.local_final_dir_grch38",
+  "PBCCSWholeGenome.participant_name": "this.ha-sample-grch38_id",
+  "PBCCSWholeGenome.ref_map_file": "workspace.ref_map_file_grch38",
+  "PBCCSWholeGenome.ref_scatter_interval_list_ids": "workspace.size_balanced_scatter_interval_list_id_grch38",
+  "PBCCSWholeGenome.ref_scatter_interval_list_locator": "workspace.size_balanced_scatter_interval_list_list_grch38",
+  "PBCCSWholeGenome.run_dv_pepper_analysis": true
+}

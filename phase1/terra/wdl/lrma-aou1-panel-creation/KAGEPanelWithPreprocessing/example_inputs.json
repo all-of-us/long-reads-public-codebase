@@ -1,0 +1,27 @@
+{
+  "KAGEPanelWithPreprocessing.PreprocessPanelVCF.extra_view_args": "-t ^chr7:57336990",
+  "KAGEPanelWithPreprocessing.chromosomes": "[this.chromosome]",
+  "KAGEPanelWithPreprocessing.cpu_make_count_model": 32,
+  "KAGEPanelWithPreprocessing.do_single_chromosome": true,
+  "KAGEPanelWithPreprocessing.docker": "us.gcr.io/broad-dsde-methods/slee/kage-lite:pr_29",
+  "KAGEPanelWithPreprocessing.input_vcf_gz": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/PhasedPanelEvaluation/<workflow-id>/call-ConcatVcfsPanGeniePanelCreation/AoU1-HPRC.AF_gt_pt005.25kb_windows.panel.vcf.gz",
+  "KAGEPanelWithPreprocessing.input_vcf_gz_tbi": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/PhasedPanelEvaluation/<workflow-id>/call-ConcatVcfsPanGeniePanelCreation/AoU1-HPRC.AF_gt_pt005.25kb_windows.panel.vcf.gz.tbi",
+  "KAGEPanelWithPreprocessing.large_runtime_attributes": {
+    "command_mem_gb": 127,
+    "max_retries": 1,
+    "use_ssd": true
+  },
+  "KAGEPanelWithPreprocessing.medium_runtime_attributes": {
+    "command_mem_gb": 31,
+    "max_retries": 2,
+    "use_ssd": true
+  },
+  "KAGEPanelWithPreprocessing.monitoring_script": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/resources/cromwell_monitoring_script2.sh",
+  "KAGEPanelWithPreprocessing.output_prefix": "AoU1-HPRC.AF_gt_pt005.25kb_windows",
+  "KAGEPanelWithPreprocessing.reference_fasta": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/references/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+  "KAGEPanelWithPreprocessing.reference_fasta_fai": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/references/GRCh38_full_analysis_set_plus_decoy_hla.fa.fai",
+  "KAGEPanelWithPreprocessing.runtime_attributes": {
+    "use_ssd": true
+  },
+  "KAGEPanelWithPreprocessing.spacing": 5
+}

@@ -1,0 +1,8 @@
+workflow: V11HprcAnalysis
+lookup_name: V11HprcAnalysis
+repo: https://github.com/fabio-cunial/callset_integration.git
+branch: main
+primary: wdl/V11HprcAnalysis.wdl
+located_via: filename
+dockstore: https://dockstore.org/workflows/github.com/fabio-cunial/callset_integration/V11HprcAnalysis
+entry: V11HprcAnalysis.wdl (upstream wdl/V11HprcAnalysis.wdl; relative imports rewritten to repo/)

@@ -1,0 +1,8 @@
+workflow: FilterAndSplit
+lookup_name: FilterAndSplit
+repo: https://github.com/fabio-cunial/callset_integration.git
+branch: main
+primary: wdl/FilterAndSplit.wdl
+located_via: dockstore:FilterAndSplit
+dockstore: https://dockstore.org/workflows/github.com/fabio-cunial/callset_integration/FilterAndSplit
+entry: FilterAndSplit.wdl (upstream wdl/FilterAndSplit.wdl; relative imports rewritten to repo/)

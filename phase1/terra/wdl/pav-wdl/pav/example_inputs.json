@@ -1,0 +1,10 @@
+{
+  "pav.assigned_gcp_zones": "this.Z_randomized_gcp_zone",
+  "pav.config": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/terra/pav.minimal.config.json",
+  "pav.hapOne": "this.hifiasm_hap1",
+  "pav.hapTwo": "this.hifiasm_hap2",
+  "pav.ref": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/references/GRCh38_noalt/GCA_000001405.15_GRCh38_no_alt_analysis_set.fa",
+  "pav.refFai": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/references/GRCh38_noalt/GCA_000001405.15_GRCh38_no_alt_analysis_set.fa.fai",
+  "pav.sample": "this.ha-sample-grch38_id",
+  "pav.targetChromsList": "workspace.canonical_chromosomes"
+}

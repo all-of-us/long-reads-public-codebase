@@ -1,0 +1,4 @@
+{
+  "TruvariCollapse.intput_vcf_gz": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/scratch/flg_aou_grch38.vcf.gz",
+  "TruvariCollapse.intput_vcf_gz_tbi": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/scratch/flg_aou_grch38.vcf.gz.tbi"
+}

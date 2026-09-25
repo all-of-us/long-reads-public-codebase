@@ -1,0 +1,8 @@
+workflow: HiFiBamToFastQ
+lookup_name: HiFiBamToFastQ
+repo: https://github.com/broadinstitute/long-read-pipelines.git
+branch: sh_wg_extract_fastq
+primary: wdl/HiFiBamToFastQ.wdl
+located_via: filename
+dockstore: https://dockstore.org/workflows/github.com/broadinstitute/long-read-pipelines/HiFiBamToFastQ
+entry: HiFiBamToFastQ.wdl (upstream wdl/HiFiBamToFastQ.wdl; relative imports rewritten to repo/)

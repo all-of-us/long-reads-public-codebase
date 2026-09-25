@@ -1,0 +1,49 @@
+{
+  "HierarchicallyMergeVcfs.batch_size": 10,
+  "HierarchicallyMergeVcfs.concat_runtime_attributes": {
+    "cpu": 2,
+    "command_mem_gb": 3,
+    "max_retries": 1,
+    "use_ssd": true,
+    "disk_size_gb": 2000
+  },
+  "HierarchicallyMergeVcfs.docker": "us.gcr.io/broad-dsde-methods/slee/kage-lite:sl_downscale_clean",
+  "HierarchicallyMergeVcfs.extra_concat_args": "--threads $(nproc) --naive",
+  "HierarchicallyMergeVcfs.merge_runtime_attributes": {
+    "cpu": 2,
+    "command_mem_gb": 3,
+    "max_retries": 1,
+    "use_ssd": true,
+    "disk_size_gb": 500
+  },
+  "HierarchicallyMergeVcfs.monitoring_script": "gs://<private-bucket-15>/resources/cromwell_monitoring_script2.sh",
+  "HierarchicallyMergeVcfs.output_prefix": "this.v1pt1b_repl_aou10k_samples_set_set_id",
+  "HierarchicallyMergeVcfs.regions": [
+    "chr1",
+    "chr2",
+    "chr3",
+    "chr4",
+    "chr5",
+    "chr6",
+    "chr7",
+    "chr8",
+    "chr9",
+    "chr10",
+    "chr11",
+    "chr12",
+    "chr13",
+    "chr14",
+    "chr15",
+    "chr16",
+    "chr17",
+    "chr18",
+    "chr19",
+    "chr20",
+    "chr21",
+    "chr22"
+  ],
+  "HierarchicallyMergeVcfs.sample_names": "this.v1pt1b_repl_aou10k_samples_sets.v1pt1b_repl_aou10k_sampless.v1pt1b_repl_aou10k_sample_id",
+  "HierarchicallyMergeVcfs.use_ivcfmerge": true,
+  "HierarchicallyMergeVcfs.vcf_gz_tbis": "this.v1pt1b_repl_aou10k_samples_sets.glimpse_unphased_vcf_gz_tbi",
+  "HierarchicallyMergeVcfs.vcf_gzs": "this.v1pt1b_repl_aou10k_samples_sets.glimpse_unphased_vcf_gz"
+}

@@ -1,0 +1,10 @@
+{
+  "MergeVCFs.filterPAV": 1,
+  "MergeVCFs.output_dir": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/scratch/cunial-lr-genotyping/SECOND_ANALYSIS/pav",
+  "MergeVCFs.reference_fa": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/references/GRCh38_noalt/GCA_000001405.15_GRCh38_no_alt_analysis_set.fa",
+  "MergeVCFs.reference_fai": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/references/GRCh38_noalt/GCA_000001405.15_GRCh38_no_alt_analysis_set.fa.fai",
+  "MergeVCFs.regions": [
+    "chr22"
+  ],
+  "MergeVCFs.vcf_addresses": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/scratch/cunial-lr-genotyping/SECOND_ANALYSIS/pav/vcfs_pav.txt"
+}

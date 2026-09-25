@@ -1,0 +1,32 @@
+{
+  "FilterAndSplit.chromosomes": [
+    "chr1",
+    "chr2",
+    "chr3",
+    "chr4",
+    "chr5",
+    "chr6",
+    "chr7",
+    "chr8",
+    "chr9",
+    "chr10",
+    "chr11",
+    "chr12",
+    "chr13",
+    "chr14",
+    "chr15",
+    "chr16",
+    "chr17",
+    "chr18",
+    "chr19",
+    "chr20",
+    "chr21",
+    "chr22",
+    "chrX",
+    "chrY"
+  ],
+  "FilterAndSplit.destination_dir": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/scratch/cunial_intersample_vcf/v11/grch38/split_by_chr",
+  "FilterAndSplit.sample_id": "this.Integratedcall-GRCh38_id",
+  "FilterAndSplit.sample_vcf_gz": "this.v11_scored_kanpig_vcf_gz",
+  "FilterAndSplit.sample_vcf_gz_tbi": "this.v11_scored_kanpig_vcf_gz_tbi"
+}

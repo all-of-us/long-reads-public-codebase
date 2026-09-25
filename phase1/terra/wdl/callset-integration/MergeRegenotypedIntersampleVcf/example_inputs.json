@@ -1,0 +1,4 @@
+{
+  "MergeRegenotypedIntersampleVcf.MergeImpl.n_cpus": 64,
+  "MergeRegenotypedIntersampleVcf.regenotyped_vcfs_list": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/scratch/cunial_intersample_vcf/v11/grch38_kanpig_07_regenotype_of_merge_addresses.txt"
+}

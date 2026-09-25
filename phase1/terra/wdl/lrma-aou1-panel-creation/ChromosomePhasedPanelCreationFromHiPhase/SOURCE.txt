@@ -1,0 +1,8 @@
+workflow: ChromosomePhasedPanelCreationFromHiPhase
+lookup_name: ChromosomePhasedPanelCreationFromHiPhase
+repo: https://github.com/broadinstitute/lrma-aou1-panel-creation.git
+branch: sl_v1.1b
+primary: wdl/methods/phasing/ChromosomePhasedPanelCreationFromHiPhase.wdl
+located_via: dockstore:ChromosomePhasedPanelCreationFromHiPhase
+dockstore: https://dockstore.org/workflows/github.com/broadinstitute/lrma-aou1-panel-creation/ChromosomePhasedPanelCreationFromHiPhase
+entry: ChromosomePhasedPanelCreationFromHiPhase.wdl (upstream wdl/methods/phasing/ChromosomePhasedPanelCreationFromHiPhase.wdl; relative imports rewritten to repo/)

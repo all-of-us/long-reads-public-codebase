@@ -1,0 +1,39 @@
+{
+  "GraphEvaluation.chromosomes": [
+    "chr1"
+  ],
+  "GraphEvaluation.confident_bed": "this.confident_bed",
+  "GraphEvaluation.docker": "fcunial/hapestry:evaluate_with_jitter",
+  "GraphEvaluation.evaluation_bed_large_overlap": [
+    "gs://<private-bucket-3>/references/giab_stratifications/v3_3/GRCh38/GRCh38_lowmappabilityall.bed",
+    "gs://<private-bucket-3>/references/giab_stratifications/v3_3/GRCh38/GRCh38_notinAllTandemRepeatsandHomopolymers_slop5.bed",
+    "gs://<private-bucket-3>/references/giab_stratifications/v3_3/GRCh38/GRCh38_notinallTandemRepeats.bed",
+    "gs://<private-bucket-3>/references/giab_stratifications/v3_3/GRCh38/GRCh38_notinsegdups_gt10kb.bed",
+    "gs://<private-bucket-3>/references/giab_stratifications/v3_3/GRCh38/GRCh38_segdups_gt10kb.bed"
+  ],
+  "GraphEvaluation.evaluation_bed_small_overlap": [
+    "gs://<private-bucket-3>/references/giab_stratifications/v3_3/GRCh38/GRCh38_lowmappabilityall.bed",
+    "gs://<private-bucket-3>/references/giab_stratifications/v3_3/GRCh38/GRCh38_notinAllTandemRepeatsandHomopolymers_slop5.bed",
+    "gs://<private-bucket-3>/references/giab_stratifications/v3_3/GRCh38/GRCh38_notinallTandemRepeats.bed",
+    "gs://<private-bucket-3>/references/giab_stratifications/v3_3/GRCh38/GRCh38_notinsegdups_gt10kb.bed",
+    "gs://<private-bucket-3>/references/giab_stratifications/v3_3/GRCh38/GRCh38_segdups_gt10kb.bed"
+  ],
+  "GraphEvaluation.flank_length": 200,
+  "GraphEvaluation.force_unique_reads": false,
+  "GraphEvaluation.graphaligner_timeout": 400,
+  "GraphEvaluation.haps_vs_chm13_csv": "this.subsampled_truth_haps_csv",
+  "GraphEvaluation.interval_max_length": 10000,
+  "GraphEvaluation.large_overlap": 0.9,
+  "GraphEvaluation.min_sv_length": 20,
+  "GraphEvaluation.n_cpu": 32,
+  "GraphEvaluation.ram_size_gb": 128,
+  "GraphEvaluation.reference_fa": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/references/GRCh38_noalt/GCA_000001405.15_GRCh38_no_alt_analysis_set.fa",
+  "GraphEvaluation.small_overlap": 0.1,
+  "GraphEvaluation.tandems_bed": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/references/GRCh38_noalt/bed_strata/human_GRCh38_no_alt_analysis_set.trf.bed",
+  "GraphEvaluation.vcf_gz": "[\n\"gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/references/null_ref.vcf.gz\",\nthis.hapestry_at_most_47_samples_vcf_gz\n]",
+  "GraphEvaluation.vcf_id": [
+    "ref",
+    "hapestry"
+  ],
+  "GraphEvaluation.vcf_tbi": "[\n\"gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/references/null_ref.vcf.gz.tbi\",\nthis.hapestry_at_most_47_samples_vcf_gz_tbi\n]"
+}

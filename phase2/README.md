@@ -1,0 +1,7 @@
+# All of Us Long Read Project, Phase 2
+
+Phase 2 of AoU-LR comprises PacBio HiFi and Oxford Nanopore sequencing. The PacBio discovery set is 12,261 participants (12,238 with matched short-read WGS) across six computed continental ancestry groups (AFR, AMR, EAS, EUR, MID, and SAS), including 39 pedigrees. 11,128 participants were sequenced at mid-pass depth (mean 16.3×) and 1,133 at high-pass depth (mean 33.2×) on Sequel IIe and Revio instruments. Oxford Nanopore reads overlap 876 of those 1,133 high-pass PacBio participants and none of the mid-pass participants. An additional 1,269 high-pass ONT participants do not overlap the PacBio set and are described in a companion manuscript.
+
+The Phase 2 analysis covers haplotype-resolved hifiasm assemblies, DeepVariant and GLnexus small-variant calls, an ensemble SV callset (PBSV, Sniffles2, and PAV) with cohort filtering, genome-wide CpG methylation, and a phased reference panel imputed into short-read WGS with GLIMPSE (without the Phase 1 KAGE pre-genotyping step). Downstream analyses include EHR association in the long-read cohort (SAIGE and METAL), tandem repeats, eQTL/pQTL/meQTL, MHC and KIR haplotypes, mobile elements, mitochondrial variation, and phenome-wide association on the imputed short-read cohort.
+
+Workflows, notebooks, and analysis scripts for Phase 2 are not in this repository yet. Phase 2 is organized the same way as Phase 1, so the steps in [GETTING_STARTED.md](../GETTING_STARTED.md) will apply under `phase2/`.

@@ -1,0 +1,8 @@
+workflow: TruvariCollapse
+lookup_name: TruvariCollapse
+repo: https://github.com/fabio-cunial/callset_integration.git
+branch: main
+primary: wdl/TruvariCollapse.wdl
+located_via: dockstore:TruvariCollapse
+dockstore: https://dockstore.org/workflows/github.com/fabio-cunial/callset_integration/TruvariCollapse
+entry: TruvariCollapse.wdl (upstream wdl/TruvariCollapse.wdl; relative imports rewritten to repo/)

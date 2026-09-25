@@ -1,0 +1,8 @@
+workflow: GraphEvaluation
+lookup_name: GraphEvaluation
+repo: https://github.com/rlorigro/sv_merge.git
+branch: dev
+primary: wdl/GraphEvaluation.wdl
+located_via: dockstore:GraphEvaluation
+dockstore: https://dockstore.org/workflows/github.com/rlorigro/sv_merge/GraphEvaluation
+entry: GraphEvaluation.wdl (upstream wdl/GraphEvaluation.wdl; relative imports rewritten to repo/)

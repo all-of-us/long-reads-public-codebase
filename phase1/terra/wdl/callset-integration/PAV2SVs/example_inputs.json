@@ -1,0 +1,4 @@
+{
+  "PAV2SVs.input_vcf_gz": "this.finalized_pav_vcf",
+  "PAV2SVs.min_sv_length": 50
+}

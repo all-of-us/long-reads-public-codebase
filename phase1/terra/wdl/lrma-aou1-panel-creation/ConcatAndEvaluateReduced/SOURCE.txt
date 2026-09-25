@@ -1,0 +1,9 @@
+workflow: ConcatAndEvaluateReduced
+lookup_name: ConcatAndEvaluateReduced
+repo: https://github.com/broadinstitute/lrma-aou1-panel-creation.git
+branch: sl_v1.1b
+primary: wdl/evaluation/phased-panel/ConcatAndEvaluateReduced.wdl
+located_via: dockstore:ConcatAndEvaluateReduced
+dockstore: https://dockstore.org/workflows/github.com/broadinstitute/lrma-aou1-panel-creation/ConcatAndEvaluateReduced
+entry: ConcatAndEvaluateReduced.wdl (upstream wdl/evaluation/phased-panel/ConcatAndEvaluateReduced.wdl; relative imports rewritten to repo/)
+local_patch: wdl/methods/kage/GLIMPSEBatchedCasePerChromosome.wdl taken from lrma-aou1-panel-creation commit 13edc1ac22ec93d5f28be4bf9914aa013ab568ee, the interface LeaveOutEvaluationReduced.wdl calls. Later commits on sl_v1.1b changed its inputs without updating the caller.

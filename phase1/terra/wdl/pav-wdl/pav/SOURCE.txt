@@ -1,0 +1,8 @@
+workflow: pav
+lookup_name: pav
+repo: https://github.com/broadinstitute/pav-wdl.git
+branch: sh_more_resources_pete
+primary: pav.wdl
+located_via: filename
+dockstore: https://dockstore.org/workflows/github.com/broadinstitute/pav-wdl/pav
+entry: pav.wdl (upstream pav.wdl; relative imports rewritten to repo/)

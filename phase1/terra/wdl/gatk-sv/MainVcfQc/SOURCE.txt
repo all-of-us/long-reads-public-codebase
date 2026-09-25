@@ -1,0 +1,8 @@
+workflow: MainVcfQc
+lookup_name: MainVcfQc
+repo: https://github.com/broadinstitute/gatk-sv.git
+branch: v0.26.2-beta
+primary: wdl/MainVcfQc.wdl
+located_via: filename
+dockstore: https://dockstore.org/workflows/github.com/broadinstitute/gatk-sv/MainVcfQc
+entry: MainVcfQc.wdl (upstream wdl/MainVcfQc.wdl; relative imports rewritten to repo/)

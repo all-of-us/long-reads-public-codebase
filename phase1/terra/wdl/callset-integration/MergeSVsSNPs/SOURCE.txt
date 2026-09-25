@@ -1,0 +1,8 @@
+workflow: MergeSVsSNPs
+lookup_name: MergeSVsSNPs
+repo: https://github.com/fabio-cunial/callset_integration.git
+branch: main
+primary: wdl/MergeSVsSNPs.wdl
+located_via: dockstore:MergeSVsSNPs
+dockstore: https://dockstore.org/workflows/github.com/fabio-cunial/callset_integration/MergeSVsSNPs
+entry: MergeSVsSNPs.wdl (upstream wdl/MergeSVsSNPs.wdl; relative imports rewritten to repo/)

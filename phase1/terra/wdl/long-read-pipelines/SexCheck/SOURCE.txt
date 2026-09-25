@@ -1,0 +1,8 @@
+workflow: SexCheck
+lookup_name: SexCheckNaive
+repo: https://github.com/broadinstitute/long-read-pipelines.git
+branch: sh_more_atomic_qc
+primary: wdl/pipelines/TechAgnostic/Utility/SexCheckNaive.wdl
+located_via: dockstore:SexCheckNaive
+dockstore: https://dockstore.org/workflows/github.com/broadinstitute/long-read-pipelines/SexCheck
+entry: SexCheck.wdl (upstream wdl/pipelines/TechAgnostic/Utility/SexCheckNaive.wdl; relative imports rewritten to repo/)

@@ -1,0 +1,8 @@
+workflow: FilterIntrasampleDevV11
+lookup_name: FilterIntrasampleDevV11
+repo: https://github.com/fabio-cunial/callset_integration.git
+branch: main
+primary: wdl/FilterIntrasampleDevV11.wdl
+located_via: dockstore:FilterIntrasampleDevV11
+dockstore: https://dockstore.org/workflows/github.com/fabio-cunial/callset_integration/FilterIntrasampleDevV11
+entry: FilterIntrasampleDevV11.wdl (upstream wdl/FilterIntrasampleDevV11.wdl; relative imports rewritten to repo/)

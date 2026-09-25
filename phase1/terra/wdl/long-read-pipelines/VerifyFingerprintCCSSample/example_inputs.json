@@ -1,0 +1,7 @@
+{
+  "VerifyFingerprintCCSSample.aligned_bai": "this.aligned_bai",
+  "VerifyFingerprintCCSSample.aligned_bam": "this.aligned_bam",
+  "VerifyFingerprintCCSSample.fp_store": "workspace.fingerprint_store",
+  "VerifyFingerprintCCSSample.ref_specific_haplotype_map": "workspace.fingerprint_haplotype_map",
+  "VerifyFingerprintCCSSample.sample_id_at_store": "this.bbid"
+}

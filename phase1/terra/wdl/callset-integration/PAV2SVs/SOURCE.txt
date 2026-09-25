@@ -1,0 +1,9 @@
+workflow: PAV2SVs
+lookup_name: PAV2SVs
+repo: https://github.com/fabio-cunial/callset_integration.git
+branch: main
+primary: wdl/PAV2SVs.wdl
+located_via: dockstore:PAV2SVs
+dockstore: https://dockstore.org/workflows/github.com/fabio-cunial/callset_integration/PAV2SVs
+entry: PAV2SVs.wdl (upstream wdl/PAV2SVs.wdl; relative imports rewritten to repo/)
+local_patch: PAV2SVs.wdl taken from commit 9a31d42a16085199376a751e0e2c3a9999f9fead, the last commit on main on or before the last Phase 1 run (2024-03-19). Later commits add multiallelic splitting, change the Docker image, and drop the SNP output.

@@ -1,0 +1,8 @@
+workflow: SmallVariantsBasicMetrics
+lookup_name: SmallVariantsBasicMetrics
+repo: https://github.com/broadinstitute/long-read-pipelines.git
+branch: sh_variants_ss_metrics
+primary: wdl/pipelines/TechAgnostic/Utility/SmallVariantsBasicMetrics.wdl
+located_via: dockstore:SmallVariantsBasicMetrics
+dockstore: https://dockstore.org/workflows/github.com/broadinstitute/long-read-pipelines/SmallVariantsBasicMetrics
+entry: SmallVariantsBasicMetrics.wdl (upstream wdl/pipelines/TechAgnostic/Utility/SmallVariantsBasicMetrics.wdl; relative imports rewritten to repo/)

@@ -1,0 +1,6 @@
+{
+  "MapAssemblyContigs.contigs_fa": "this.hifiasm_hap2",
+  "MapAssemblyContigs.read_group": "HAP1",
+  "MapAssemblyContigs.ref_map_file": "workspace.ref_map_file_grch38",
+  "MapAssemblyContigs.sample": "this.ha-sample-grch38_id"
+}

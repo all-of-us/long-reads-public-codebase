@@ -1,0 +1,8 @@
+workflow: KAGECasePerChromosomeFlexscattered
+lookup_name: KAGECasePerChromosomeFlexscattered
+repo: https://github.com/broadinstitute/lrma-aou1-panel-creation.git
+branch: sl_v1.1b
+primary: wdl/methods/kage/KAGECasePerChromosomeFlexscattered.wdl
+located_via: dockstore:KAGECasePerChromosomeFlexscattered
+dockstore: https://dockstore.org/workflows/github.com/broadinstitute/lrma-aou1-panel-creation/KAGECasePerChromosomeFlexscattered
+entry: KAGECasePerChromosomeFlexscattered.wdl (upstream wdl/methods/kage/KAGECasePerChromosomeFlexscattered.wdl; relative imports rewritten to repo/)

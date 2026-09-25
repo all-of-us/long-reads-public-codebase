@@ -1,0 +1,4 @@
+{
+  "MergePhasedVCF.SampleFolder": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/scratch/hangsu/Phasing_AoU_HPRC/HybridPhase/Hiphase/",
+  "MergePhasedVCF.Samplename": "WholeGenomePhased"
+}

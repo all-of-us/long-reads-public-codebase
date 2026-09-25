@@ -1,0 +1,8 @@
+workflow: JointCalling
+lookup_name: JointCalling
+repo: https://github.com/fabio-cunial/sv-merging.git
+branch: main
+primary: wdl/JointCalling.wdl
+located_via: dockstore:JointCalling
+dockstore: https://dockstore.org/workflows/github.com/fabio-cunial/sv-merging/JointCalling
+entry: JointCalling.wdl (upstream wdl/JointCalling.wdl; relative imports rewritten to repo/)

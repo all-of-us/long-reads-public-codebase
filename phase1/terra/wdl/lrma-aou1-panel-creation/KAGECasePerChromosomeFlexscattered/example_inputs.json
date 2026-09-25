@@ -1,0 +1,177 @@
+{
+  "KAGECasePerChromosome.average_coverage": "this.mean_coverage",
+  "KAGECasePerChromosome.chromosomes": [
+    [
+      "chr1",
+      "chr2",
+      "chr3"
+    ],
+    [
+      "chr4",
+      "chr5",
+      "chr6",
+      "chr7"
+    ],
+    [
+      "chr8",
+      "chr9",
+      "chr10",
+      "chr11",
+      "chr12",
+      "chr13"
+    ],
+    [
+      "chr14",
+      "chr15",
+      "chr16",
+      "chr17",
+      "chr18",
+      "chr19",
+      "chr20",
+      "chr21",
+      "chr22"
+    ]
+  ],
+  "KAGECasePerChromosome.input_crai": "this.cram_idx",
+  "KAGECasePerChromosome.input_cram": "this.cram",
+  "KAGECasePerChromosome.kage_docker": "us.gcr.io/broad-dsde-methods/slee/kage-lite:sl_downscale_clean",
+  "KAGECasePerChromosome.kage_runtime_attributes": {
+    "cpu": 6,
+    "command_mem_gb": 5,
+    "preemptible": 4
+  },
+  "KAGECasePerChromosome.monitoring_script": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/resources/cromwell_monitoring_script2.sh",
+  "KAGECasePerChromosome.panel_index": [
+    [
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeIndexBundle/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr1.index.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeIndexBundle/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr2.index.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeIndexBundle/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr3.index.pkl"
+    ],
+    [
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeIndexBundle/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr4.index.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeIndexBundle/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr5.index.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeIndexBundle/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr6.index.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeIndexBundle/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr7.index.pkl"
+    ],
+    [
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeIndexBundle/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr8.index.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeIndexBundle/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr9.index.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeIndexBundle/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr10.index.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeIndexBundle/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr11.index.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeIndexBundle/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr12.index.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeIndexBundle/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr13.index.pkl"
+    ],
+    [
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeIndexBundle/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr14.index.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeIndexBundle/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr15.index.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeIndexBundle/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr16.index.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeIndexBundle/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr17.index.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeIndexBundle/attempt-2/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr18.index.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeIndexBundle/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr19.index.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeIndexBundle/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr20.index.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeIndexBundle/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr21.index.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeIndexBundle/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr22.index.pkl"
+    ]
+  ],
+  "KAGECasePerChromosome.panel_kmer_index_only_variants_with_revcomp": [
+    [
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeVariantKmerIndexWithReverseComplements/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr1.kmer_index_only_variants_with_revcomp.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeVariantKmerIndexWithReverseComplements/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr2.kmer_index_only_variants_with_revcomp.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeVariantKmerIndexWithReverseComplements/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr3.kmer_index_only_variants_with_revcomp.pkl"
+    ],
+    [
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeVariantKmerIndexWithReverseComplements/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr4.kmer_index_only_variants_with_revcomp.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeVariantKmerIndexWithReverseComplements/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr5.kmer_index_only_variants_with_revcomp.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeVariantKmerIndexWithReverseComplements/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr6.kmer_index_only_variants_with_revcomp.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeVariantKmerIndexWithReverseComplements/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr7.kmer_index_only_variants_with_revcomp.pkl"
+    ],
+    [
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeVariantKmerIndexWithReverseComplements/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr8.kmer_index_only_variants_with_revcomp.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeVariantKmerIndexWithReverseComplements/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr9.kmer_index_only_variants_with_revcomp.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeVariantKmerIndexWithReverseComplements/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr10.kmer_index_only_variants_with_revcomp.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeVariantKmerIndexWithReverseComplements/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr11.kmer_index_only_variants_with_revcomp.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeVariantKmerIndexWithReverseComplements/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr12.kmer_index_only_variants_with_revcomp.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeVariantKmerIndexWithReverseComplements/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr13.kmer_index_only_variants_with_revcomp.pkl"
+    ],
+    [
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeVariantKmerIndexWithReverseComplements/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr14.kmer_index_only_variants_with_revcomp.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeVariantKmerIndexWithReverseComplements/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr15.kmer_index_only_variants_with_revcomp.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeVariantKmerIndexWithReverseComplements/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr16.kmer_index_only_variants_with_revcomp.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeVariantKmerIndexWithReverseComplements/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr17.kmer_index_only_variants_with_revcomp.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeVariantKmerIndexWithReverseComplements/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr18.kmer_index_only_variants_with_revcomp.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeVariantKmerIndexWithReverseComplements/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr19.kmer_index_only_variants_with_revcomp.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeVariantKmerIndexWithReverseComplements/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr20.kmer_index_only_variants_with_revcomp.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeVariantKmerIndexWithReverseComplements/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr21.kmer_index_only_variants_with_revcomp.pkl",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-MakeVariantKmerIndexWithReverseComplements/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr22.kmer_index_only_variants_with_revcomp.pkl"
+    ]
+  ],
+  "KAGECasePerChromosome.panel_multi_split_vcf_gz": [
+    [
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr1.preprocessed.multi.split.vcf.gz",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr2.preprocessed.multi.split.vcf.gz",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr3.preprocessed.multi.split.vcf.gz"
+    ],
+    [
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr4.preprocessed.multi.split.vcf.gz",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr5.preprocessed.multi.split.vcf.gz",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr6.preprocessed.multi.split.vcf.gz",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/cacheCopy/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr7.preprocessed.multi.split.vcf.gz"
+    ],
+    [
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr8.preprocessed.multi.split.vcf.gz",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr9.preprocessed.multi.split.vcf.gz",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr10.preprocessed.multi.split.vcf.gz",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr11.preprocessed.multi.split.vcf.gz",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr12.preprocessed.multi.split.vcf.gz",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr13.preprocessed.multi.split.vcf.gz"
+    ],
+    [
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr14.preprocessed.multi.split.vcf.gz",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr15.preprocessed.multi.split.vcf.gz",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr16.preprocessed.multi.split.vcf.gz",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr17.preprocessed.multi.split.vcf.gz",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr18.preprocessed.multi.split.vcf.gz",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr19.preprocessed.multi.split.vcf.gz",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr20.preprocessed.multi.split.vcf.gz",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr21.preprocessed.multi.split.vcf.gz",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr22.preprocessed.multi.split.vcf.gz"
+    ]
+  ],
+  "KAGECasePerChromosome.panel_multi_split_vcf_gz_tbi": [
+    [
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr1.preprocessed.multi.split.vcf.gz.tbi",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr2.preprocessed.multi.split.vcf.gz.tbi",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr3.preprocessed.multi.split.vcf.gz.tbi"
+    ],
+    [
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr4.preprocessed.multi.split.vcf.gz.tbi",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr5.preprocessed.multi.split.vcf.gz.tbi",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr6.preprocessed.multi.split.vcf.gz.tbi",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/cacheCopy/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr7.preprocessed.multi.split.vcf.gz.tbi"
+    ],
+    [
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr8.preprocessed.multi.split.vcf.gz.tbi",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr9.preprocessed.multi.split.vcf.gz.tbi",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr10.preprocessed.multi.split.vcf.gz.tbi",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr11.preprocessed.multi.split.vcf.gz.tbi",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr12.preprocessed.multi.split.vcf.gz.tbi",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr13.preprocessed.multi.split.vcf.gz.tbi"
+    ],
+    [
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr14.preprocessed.multi.split.vcf.gz.tbi",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr15.preprocessed.multi.split.vcf.gz.tbi",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr16.preprocessed.multi.split.vcf.gz.tbi",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr17.preprocessed.multi.split.vcf.gz.tbi",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr18.preprocessed.multi.split.vcf.gz.tbi",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr19.preprocessed.multi.split.vcf.gz.tbi",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr20.preprocessed.multi.split.vcf.gz.tbi",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr21.preprocessed.multi.split.vcf.gz.tbi",
+      "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/submissions/<submission-id>/KAGEPanelWithPreprocessing/<workflow-id>/call-ConcatVcfsPreprocessedPanelMultiSplit/AoU-HPRC-v1.1b.AF_gt_pt005.25kb_windows.chr22.preprocessed.multi.split.vcf.gz.tbi"
+    ]
+  ],
+  "KAGECasePerChromosome.reference_dict": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/references/GRCh38_full_analysis_set_plus_decoy_hla.dict",
+  "KAGECasePerChromosome.reference_fasta": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/references/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+  "KAGECasePerChromosome.reference_fasta_fai": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_Imputation>/references/GRCh38_full_analysis_set_plus_decoy_hla.fa.fai",
+  "KAGECasePerChromosome.sample_name": "this.v1pt1b_repl_aou10k_samples_id",
+  "KAGECasePerChromosome.samtools_docker": "us.gcr.io/broad-dsp-lrma/lr-gcloud-samtools:0.1.20"
+}

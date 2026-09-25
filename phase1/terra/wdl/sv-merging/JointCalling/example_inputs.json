@@ -1,0 +1,4 @@
+{
+  "JointCalling.n_files": 100,
+  "JointCalling.snfs": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/scratch/cunial-lr-genotyping/addresses_snfs.txt"
+}

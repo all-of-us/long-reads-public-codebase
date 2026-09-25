@@ -1,0 +1,6 @@
+{
+  "PBAssembleWithHifiasm.ccs_fqs": "this.ha-sm-specific-atomics.hifi_fq",
+  "PBAssembleWithHifiasm.gcs_out_root_dir": "workspace.local_final_dir_ref_free",
+  "PBAssembleWithHifiasm.participant_name": "this.ha-sample_id",
+  "PBAssembleWithHifiasm.prefix": "this.ha-sample_id"
+}

@@ -1,0 +1,8 @@
+{
+  "LRMergeSVVCFs.caller": "sniffles",
+  "LRMergeSVVCFs.gcs_out_root_dir": "workspace.local_final_dir_grch38",
+  "LRMergeSVVCFs.prefix": "this.ha-sample-grch38_set_id",
+  "LRMergeSVVCFs.ref_map_file": "workspace.ref_map_file_grch38",
+  "LRMergeSVVCFs.tbis": "this.ha-sample-grch38s.sniffles2_tbi",
+  "LRMergeSVVCFs.vcfs": "this.ha-sample-grch38s.sniffles2_vcf"
+}

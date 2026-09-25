@@ -1,0 +1,8 @@
+workflow: RemoveSamplesV11
+lookup_name: RemoveSamplesV11
+repo: https://github.com/fabio-cunial/callset_integration.git
+branch: main
+primary: wdl/RemoveSamplesV11.wdl
+located_via: dockstore:RemoveSamplesV11
+dockstore: https://dockstore.org/workflows/github.com/fabio-cunial/callset_integration/RemoveSamplesV11
+entry: RemoveSamplesV11.wdl (upstream wdl/RemoveSamplesV11.wdl; relative imports rewritten to repo/)

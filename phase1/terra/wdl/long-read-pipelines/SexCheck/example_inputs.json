@@ -1,0 +1,8 @@
+{
+  "SexCheckNaive.bai": "this.bai",
+  "SexCheckNaive.bam": "this.bam",
+  "SexCheckNaive.chr1_bed": "workspace.grch38_chr1_bed",
+  "SexCheckNaive.chrX_bed": "workspace.grch38_chrX_bed",
+  "SexCheckNaive.chrY_bed": "workspace.grch38_chrY_bed",
+  "SexCheckNaive.expected_sex_type": "this.sex"
+}

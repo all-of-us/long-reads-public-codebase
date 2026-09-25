@@ -1,0 +1,8 @@
+workflow: TruvariIntrasample
+lookup_name: TruvariIntrasample
+repo: https://github.com/fabio-cunial/sv-merging.git
+branch: main
+primary: wdl/TruvariIntrasample.wdl
+located_via: dockstore:TruvariIntrasample
+dockstore: https://dockstore.org/workflows/github.com/fabio-cunial/sv-merging/TruvariIntrasample
+entry: TruvariIntrasample.wdl (upstream wdl/TruvariIntrasample.wdl; relative imports rewritten to repo/)

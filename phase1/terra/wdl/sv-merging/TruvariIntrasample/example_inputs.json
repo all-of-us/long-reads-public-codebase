@@ -1,0 +1,10 @@
+{
+  "TruvariIntrasample.pav_vcf_gz": "this.pav_sv_vcf",
+  "TruvariIntrasample.pav_vcf_gz_tbi": "this.pav_sv_tbi",
+  "TruvariIntrasample.pbsv_vcf_gz": "this.pbsv_vcf",
+  "TruvariIntrasample.pbsv_vcf_gz_tbi": "this.pbsv_tbi",
+  "TruvariIntrasample.reference_fa": "gs://<workspace-bucket:AoU_DRC_WGS_LongReads_PacBio>/references/GRCh38_noalt/GCA_000001405.15_GRCh38_no_alt_analysis_set.fa",
+  "TruvariIntrasample.sample_id": "this.Integratedcall-GRCh38_id",
+  "TruvariIntrasample.sniffles_vcf_gz": "this.sniffles2_vcf",
+  "TruvariIntrasample.sniffles_vcf_gz_tbi": "this.sniffles2_tbi"
+}
